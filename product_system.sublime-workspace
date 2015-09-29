@@ -1,0 +1,1107 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"payem",
+				"payment	(_footer.scss)"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"op",
+				"opacity	(_animation.scss)"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"medi",
+				"medium-6	(special-offers.php)"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"h",
+				"html	html"
+			],
+			[
+				"com",
+				"comments"
+			],
+			[
+				"ser",
+				"serialize	(comments.js)"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"clr",
+				"clr03"
+			],
+			[
+				"pl",
+				"place	(_tour-packages.scss)"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"cu",
+				"current	(high-octane-adventure.php)"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"po",
+				"position	(_header.scss)"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"col",
+				"columns	(tour-booking.php)"
+			],
+			[
+				"sma",
+				"small-12	(tour-booking.php)"
+			],
+			[
+				"ti",
+				"title	(_tour-packages.scss)"
+			],
+			[
+				"Boo",
+				"Booking	(tour_booking.php)"
+			],
+			[
+				"me",
+				"medium"
+			],
+			[
+				"day",
+				"day_tours	(settings.php)"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"custom",
+				"custom_tour	(inquiry_settings.php)"
+			],
+			[
+				"cont",
+				"contact	(mail.php)"
+			],
+			[
+				"request",
+				"request_quote	(mail.php)"
+			],
+			[
+				"se",
+				"select	Tag"
+			],
+			[
+				"Pa",
+				"Packages"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"fonty",
+				"font-family"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"small",
+				"small-12	(home.php)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"clea",
+				"clear"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"fle",
+				"flexslider"
+			],
+			[
+				"top",
+				"top-bar"
+			],
+			[
+				"smal",
+				"small-12"
+			],
+			[
+				"m",
+				"medium"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"page",
+				"page_id"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"Tour",
+				"Tourism"
+			],
+			[
+				"Tra",
+				"Travel"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"ba",
+				"base_url"
+			],
+			[
+				"comtech",
+				"comtechlanka"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"the",
+				"thead"
+			],
+			[
+				"t",
+				"th	Tag"
+			],
+			[
+				"tr",
+				"tr	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"de",
+				"design"
+			],
+			[
+				"pri",
+				"pricing"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"SITE",
+				"SITE_ROOT"
+			],
+			[
+				"requi",
+				"require_once	Language Construct"
+			],
+			[
+				"pa",
+				"page_name"
+			],
+			[
+				"tw",
+				"twiiter"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"anima",
+				"animated"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"an",
+				"animate"
+			],
+			[
+				"fonte",
+				"font-weight"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"cle",
+				"clearfix"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"ad",
+				"addClass〔function〕"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"mo",
+				"mobile"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"tra",
+				"transitionall"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"MA",
+				"margin"
+			],
+			[
+				"serv",
+				"service"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"norm",
+				"normal"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"BORDE",
+				"border-bottom"
+			],
+			[
+				"set",
+				"setTitle"
+			],
+			[
+				"va",
+				"vacancy_id"
+			],
+			[
+				"lang_j",
+				"lang_jp_speak"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"inqui",
+				"inquiries"
+			],
+			[
+				"vaca",
+				"vacancies"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"action",
+				"action_id"
+			],
+			[
+				"Ac",
+				"Actions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/config/routes.php",
+			"settings":
+			{
+				"buffer_size": 2069,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"x",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"Git: Commit"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"em",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ZURB Foundation 5 Dropdown Buttons"
+			],
+			[
+				"ma",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"lo",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"lrem",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"co",
+				"Color Picker"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lakmal/Sites/product_system",
+		"/Users/lakmal/Sites/product_system/application",
+		"/Users/lakmal/Sites/product_system/application/config",
+		"/Users/lakmal/Sites/product_system/application/controllers",
+		"/Users/lakmal/Sites/product_system/application/views"
+	],
+	"file_history":
+	[
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Member.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/layout/doc_head.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_web-directory.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/tour-operators.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/layout/footer.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_template_header.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_common.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_template_footer.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Tour_operators.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/member.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Webdirectory.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/directory-submit-website-info.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/directory-submit-website-logo.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/directory-submit.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_base.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/index.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/directory-submit-tourism-pricing.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/layout/header.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_member.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_mixins.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_forms.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/create_user.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/create_group.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/deactivate_user.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/edit_user.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/edit_group.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/change_password.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/forgot_password.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/login.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/reset_password.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/auth/index.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_variables.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/style.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scss/_ad-listing.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Home.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/config/routes.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Touroperators.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/_html/index.html",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scripts/common.js",
+		"/Users/lakmal/Sites/lanka_holiday_planner/components/scripts/forms.js",
+		"/Users/lakmal/Sites/lanka_holiday_planner/gulpfile.js",
+		"/Users/lakmal/Sites/lanka_holiday_planner/config.rb",
+		"/Users/lakmal/Sites/lanka_holiday_planner/gulp.txt",
+		"/Users/lakmal/Sites/lanka_holiday_planner/package.json",
+		"/Users/lakmal/Sites/lanka_holiday_planner/build/.gitignore",
+		"/Users/lakmal/Sites/lanka_holiday_planner/.gitignore",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/tour-operators.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/index.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/layout/slider.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/layout/header.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/layout/footer.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/layout/doc_footer.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/application/views/layout/doc_head.php",
+		"/Users/lakmal/Sites/lanka_holiday_planner/_html/index.html",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_template_header.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_variables.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_fonts.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_base.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/index.html",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_ad-listing.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/style.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_mixins.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/ad-listing.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_media-queries.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_common.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/plugins/_slick-theme.scss",
+		"/Users/lakmal/Sites/lanka_holiday_planner/scss/_animate.scss",
+		"/Users/lakmal/Sites/bestholidayplanner/config.rb",
+		"/Users/lakmal/Sites/bestholidayplanner/scss/style.scss",
+		"/Users/lakmal/Sites/bestholidayplanner/scss/_settings.scss",
+		"/Users/lakmal/Sites/dj_travels/build/cws-admin/app/config/database.php",
+		"/Users/lakmal/Sites/dj_travels/build/content/config/database.php",
+		"/Users/lakmal/Sites/dj_travels/build/cws-admin/app/views/index.php",
+		"/Users/lakmal/Sites/dj_travels/build/content/third_party/MX/Loader.php",
+		"/Users/lakmal/webroot/dj_travels/build/index.php",
+		"/Users/lakmal/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lakmal/webroot/dj_travels/build/content/views/dj_travels/tour-packages/the-kite-festival-tour.php",
+		"/Users/lakmal/webroot/dj_travels/components/scss/_tour-packages.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/whale-watching-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/tea-trails.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/kite-surfing-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/rail-tours.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/the-kite-festival-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/romantic-getaways.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/kandy-esala-perahera-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/high-octane-adventure.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/eco-adventure.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ayurvedic-and-meditation.php",
+		"/D/webroot/dj_travels/build/content/config/settings.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ramayanaya-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/north-and-east-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-paradise-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-educational-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ancient-life-and-paradise-tour.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-diverting-tour.php",
+		"/D/webroot/dj_travels/components/scripts/common.js",
+		"/D/webroot/dj_travels/components/scripts/forms.js",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/custom-tour.php",
+		"/D/webroot/dj_travels/gulpfile.js",
+		"/D/webroot/dj_travels/components/scss/_common.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/home.php",
+		"/D/webroot/dj_travels/components/scss/_navigation.scss",
+		"/D/webroot/dj_travels/build/themes/dj_travels/js/app.js",
+		"/D/webroot/dj_travels/components/scss/_tour-packages.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/standard-tours.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/layout/navigation.php",
+		"/D/webroot/dj_travels/components/scss/_home.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/special-tours.php",
+		"/D/webroot/dj_travels/components/scss/_pages.scss",
+		"/D/webroot/dj_travels/components/scss/_base.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/card-payments.php",
+		"/D/webroot/dj_travels/components/scripts/custom/card_payments.js",
+		"/D/webroot/dj_travels/build/content/controllers/mail.php",
+		"/D/webroot/dj_travels/build/.htaccess",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/contact-us.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/payments.php",
+		"/D/webroot/dj_travels/components/scss/_footer.scss",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/layout/footer.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/tour-packages.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/accommodation-types.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/tour-booking.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/tourist-attractions.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/email_templates/tour_booking.php",
+		"/D/webroot/dj_travels/build/content/libraries/Common.php",
+		"/D/webroot/dj_travels/build/content/controllers/home.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/layout/html_head.php",
+		"/D/webroot/dj_travels/build/content/views/dj_travels/email_templates/tour_booking_comfirm.php",
+		"/D/webroot/dj_travels/components/scss/_mixin.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"65rem",
+			"7rem",
+			"//$",
+			";\n",
+			"tooltip",
+			"$avatarView.tooltip",
+			"f0da",
+			"ramayanaya-tours",
+			"High Octane Adventure",
+			"high-octane-adventure",
+			"High Octane Adventure",
+			"high-octane-adventure",
+			"High Octane Adventure",
+			"ball-pulse",
+			";\n",
+			"\n$",
+			"ceylon-tea-trails",
+			"tour_booking",
+			">\n",
+			"}\n",
+			";\n",
+			"Panegyric",
+			"                                \n",
+			"10rem",
+			"<div class=\"row\">\n                <h1>What to DO &amp; SEE in Sri Lanka?</h1>\n                <h2 class=\"slogan\">Holiday Tours/ Honeymoon Tours/ Educational Tours</h2>\n            </div>",
+			"E",
+			"]",
+			"17rem",
+			"clr02",
+			";\n",
+			"=",
+			"ng-src",
+			"wow",
+			"li",
+			"		\n",
+			";\n",
+			"development",
+			"nav",
+			"bounceInLeft",
+			"Class",
+			"removeClass",
+			"add",
+			"remove",
+			">\n",
+			"angular",
+			"navigation",
+			"<h1>Professional Website Designing &amp; Development</h1>\n	<h2>\n		One stop solution for your website creation, web application development &amp; maintenance.\n	</h2>",
+			";\n",
+			"ul",
+			");\n",
+			"lang_en_speak",
+			"error",
+			"}\n",
+			" is_null($col)",
+			"$this->_props[\"color\"]",
+			"color",
+			"                    \n",
+			"title",
+			"();\n",
+			"margin",
+			";\n",
+			">",
+			"account_form",
+			"manage_cv",
+			";\n",
+			"unique value",
+			"The email",
+			"the email",
+			"news_0",
+			"news_",
+			"news_and_events",
+			";\n",
+			"edu_os_application",
+			"<div>\n								<label for=\"work_period\">Work Period</label>\n								<input type=\"text\" name=\"work_period\" value=\"{if isset($form.work_period)}{set_value('work_period', $form.work_period)}{/if}\" />\n							</div>\n							<div>\n								<label for=\"company_department\">Company Department</label>\n								<input type=\"text\" name=\"company_department\" value=\"{if isset($form.company_department)}{set_value('company_department', $form.company_department)}{/if}\" />\n							</div>",
+			"label",
+			";\n",
+			"category",
+			"company_profile_page",
+			"決算日",
+			"13",
+			";\n",
+			"date",
+			"@",
+			"build_on_save",
+			"email_confirmation_subject",
+			"foundation",
+			"Send",
+			">\n",
+			"<p class=\"medium-6 columns\">&copy; Copyright Intelligence Net, 2015</p>",
+			"Antigues ",
+			" water falls ",
+			"pharmacopocia.",
+			"egambo",
+			"royal cihedel,",
+			"vihara  Ggal",
+			"vihara  Ggal ",
+			"sinhala",
+			"rehabilitation",
+			"large scale",
+			"human elephant",
+			"ofwildlife",
+			"rain fores",
+			"awe inspiring",
+			"gourges ",
+			"exhillarating",
+			"world's End",
+			"Horton plains",
+			" in to",
+			"water fall",
+			"serviving",
+			"stair way",
+			" Sigiriya",
+			" Sigiriya   Sigiriya",
+			" Sigiriya   Sigiriya ",
+			"inmated",
+			"itenery",
+			"garden",
+			"Sigiriya",
+			"fzM",
+			"$fzM",
+			"Date Published",
+			"syntax",
+			"no",
+			"is_u",
+			"is_",
+			"CI_Form_validation",
+			"is_unique"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"ramayanaya-tour",
+			"Kandy Esala Perahera Tour",
+			"Ramayanaya Tour",
+			"Romantic Getaways",
+			"Tea Trails",
+			"tea-trails",
+			"romantic-getaways",
+			"ramayanaya-tours",
+			"kandy-esala-perahera-tour",
+			"rail-tours",
+			"Rail Tours",
+			"North &amp; East Sri Lanka Tour",
+			"north-and-east-sri-lanka-tour",
+			"Kite Surfing Tour",
+			"explore-sri-lanka",
+			"news-and-events",
+			"t",
+			"fi-ticket",
+			"h4",
+			"rem",
+			"html:5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/config/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2036,
+								2036
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 37.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 77.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 108.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "product_system.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"builds\\development\\contact.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/wa_2.2_cardenas/weekly_ads.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
