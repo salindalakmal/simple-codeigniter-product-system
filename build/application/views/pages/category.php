@@ -1,21 +1,28 @@
 <div class="row">
 	<div class="section col-md-12">
 		<div class="section-header">
-			<h1><a href="<?php echo base_url('categories'); ?>">Categories</a></h1>
+			<h1>Categories</h1>
 		</div>
 		<div class="section-content">
-			<?php if($categories){ ?>
-			<div id="products">
-				<?php foreach ($categories as $category) { ?>
-				<div class="products"> 
-					<h3><?php echo $category->name; ?></h3>
-					<img src="<?php echo base_url("assets/categories/". $category->image); ?>" title="<?php echo $category->name; ?>">
-					<!-- <p><?php //echo $product->description ?></p> -->
-					<a href="<?php echo base_url('categories/' . $category->name); ?>" title="<?php echo $category->name; ?>">View All</a>
-				</div>  
-				<?php }	?>
+			<?php if ($categories): ?>
+			<div class="categories row">
+				<?php foreach ($categories as $category): ?>
+				<div class="col-xs-6 col-sm-4 col-md-3">
+					<div class="category"> 
+						<a href="<?php echo base_url('products?category=' . $category->url); ?>">
+							<img src="<?php echo base_url("assets/categories/". $category->image); ?>" title="<?php echo $category->name; ?>">
+							<h3><?php echo $category->name; ?></h3>
+						</a>
+						<a href="<?php echo base_url('products?category=' . $category->url); ?>" class="btn btn-primary">View Products</a>
+					</div>  
+				</div>
+				<?php endforeach ?>
 			</div>
-			<?php } ?>
+			<?php else: ?>
+			<div class="message general">
+				<p>No categories available</p>
+			</div>
+			<?php endif ?>
 		</div>
 	</div>
 </div>

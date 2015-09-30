@@ -1,0 +1,83 @@
+/**
+ *
+ * Products Layouts
+ *
+ */
+
+
+.products           {
+    h4{
+        margin-bottom: 20px;
+    }
+    .product {
+        background: #f9f9f9; 
+        margin-bottom: 1rem;
+        height: 250px;
+        padding:0.5rem;
+        img {
+            border:1px solid #f1f1f1;  
+            margin-bottom: 5px; 
+            padding: 5px; 
+            width:100%; 
+            background:#fff;
+        }
+        h4{
+            font-size: $fzM;
+            margin-bottom: 0.2rem;
+        } 
+        p {
+            margin-bottom: 0; 
+        }
+        .disable_line {
+            text-decoration: line-through;
+        }
+    }
+
+}
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////

@@ -9,25 +9,19 @@
 
 .section{
 	min-height: 400px;
-    padding-top:1.5rem;
     position:relative;
 }
 .section-header{
     h1{
-        text-align: center;
         margin-bottom: 1.5rem;
-        .store-name{
-            color: $theme-clr01;
-        }
         a{
-            color: $theme-clr01;
             &:hover, &:focus{
                 text-decoration: underline;
             }
         }
     }
 }
-.content{
+.section-content{
     form{
         margin-top: 0.5rem;
     }
@@ -89,47 +83,22 @@
 
 
 /*----------  Messages and Errors  ----------*/
-.message-general, .message-error, .message-seccess{
+.message{
     padding: 1rem 1rem 0.5rem; 
     @include border-radius(5px);
-}
-.message-general{      
-    background: #faf2cc; 
-}
-.message-error{      
-    background:#F60;
-    background:rgba(255,102,0, 0.1);
-    border:1px solid rgba(255,102,0, 0.4);
-}
-.message-success{      
-    background:#093;
-    background:rgba(0,153,51, 0.1);
-    border:1px solid rgba(0,153,51, 0.4);
-}
-
-/* Email List */
-.emailMessage   {
-	display: none;
-}
-#emailSubmit    {
-	font-size: 18px; 
-	padding: 5px 10px;
-}
-
-/* Error Page */
-.error_page_message{
-    font-family:$fontM;
-    color: #930e0e;
-    font-size: 48px;
-    width: 70%;
-    margin: 100px auto;
-    text-align: center;
-}
-
-
-
-.info1 .recipes_list {
-    display: none;
+    &.general{      
+        background: #faf2cc; 
+    }
+    &.error{      
+        background:#F60;
+        background:rgba(255,102,0, 0.1);
+        border:1px solid rgba(255,102,0, 0.4);
+    }
+    &.success{      
+        background:#093;
+        background:rgba(0,153,51, 0.1);
+        border:1px solid rgba(0,153,51, 0.4);
+    }
 }
 
 
@@ -154,10 +123,6 @@
 @media only screen 
     and (max-width: 640px) {
 
-.columns{
-    padding-left:0.5rem;
-    padding-right:0.5rem;
-}  
 
 /*----------  Model window  ----------*/
 .model-header{
@@ -221,138 +186,4 @@
 } /////////////// End ///////////////
 
 
-
-#header             {
-    background: #ececec; 
-    padding-top:1rem; 
-    margin: 1rem 0;
-}
-#section            {
-    width:780px; 
-    float: left; 
-    min-height: 500px;
-}
-
-#footer             {
-    background: #ccc; 
-    padding:1rem; 
-    margin-top: 1rem; 
-    clear: both
-}
-
-
-/****************************************/
-#categories         {
-    width:200px; 
-    margin-right: 20px; 
-    float: left; 
-    background: #f1f1f1;
-    min-height: 500px
-    ul      {
-        list-style: none;
-    }
-    li  {
-        background: #ccc; 
-        margin-bottom: 2px; 
-        a {
-            display: block; 
-            padding:10px 20px; 
-            text-decoration: none; 
-            color: #000; 
-        }
-    }
-    h2 {
-        padding:10px 20px;
-        margin-bottom: 0;
-    }
-
-}
-
-#products           {
-    margin-right: -20px; 
-    margin-bottom: -20px; 
-    h2      {
-        margin-bottom: 20px;
-    }
-    .products {
-        width:164px; 
-        margin-right: 20px; 
-        height: 200px; 
-        float: left; 
-        margin-bottom: 20px; 
-        background: #f9f9f9; 
-        padding: 1%;
-        h3{
- 
-        } 
-        img {
-            border:1px solid #f1f1f1;  
-            margin-bottom: 5px; 
-            padding: 5px; 
-            width:152px; 
-            background: #fff; 
-        }
-        p {
-            margin-bottom: 0; 
-        }
-        .disable_line {
-            text-decoration: line-through;
-        }
-    }
-
-}
-
-
-
-#container.dashboard{
-    #section {
-        width:100%; 
-    }
-    #navigation{
-        margin-bottom: 1rem;
-        ul{
-            list-style: none;
-            background: $theme-clr02;
-        }
-        li{
-            display:inline-block;
-        }
-        a{
-            display:block;
-            padding:0.8rem 1rem;
-            color:#fff;
-            font-size: $fzM;
-            &:hover{
-                background: darken($theme-clr02, 5%);
-            }
-        }
-    }
-}
-
-.logout{
-    display:inline-block;
-    padding:0.8rem 1rem;
-    color:#fff;
-    font-size: $fzM;
-    background: $theme-clr02;
-    float:right;
-    &:hover{
-        background: darken($theme-clr02, 5%);
-        color:#fff;
-    }
-}
-
-.cancel{
-    display:inline-block;
-    padding:0.8rem 1rem;
-    color:#000;
-    font-size: $fzM;
-    background: #ccc;
-    float:right;
-    &:hover{
-        background: darken(#ccc, 5%);
-        color:#000;
-    }
-
-}
 

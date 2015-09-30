@@ -14,7 +14,7 @@ class MY_Controller extends CI_Controller {
         $this->load->model('products_model');
 
         $categoryObj = new categories_model();
-        $categoryObj->where = array('status' => 1);
+        $categoryObj->where = array('published' => 1);
 		$this->data['categories'] = $categoryObj->get();
 
     }

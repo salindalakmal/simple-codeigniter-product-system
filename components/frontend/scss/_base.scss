@@ -62,12 +62,12 @@ p {
 }
 a {
     outline:none; 
-    color:$link-clr01; 
+    //color:$link-clr01; 
     text-decoration:none;
     background: transparent; 
     line-height:1;
     &:hover{
-        color:$link-clr01; 
+        //color:$link-clr01; 
     }
     img{
         border:none;

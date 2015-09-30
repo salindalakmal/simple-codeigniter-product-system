@@ -1,0 +1,81 @@
+/**
+ *
+ * Category Layouts
+ *
+ */
+
+
+#categories {
+    background: #444;
+    h3 {
+        padding:0.5rem 1rem;
+        margin-bottom: 0;
+        color: #fff;
+        a{
+            color: #fff;
+        }
+    }
+    li  {  
+        a {
+            display: block; 
+            padding:0.7rem 1rem;
+            color: #666; 
+            background: #f9f9f9; 
+            border-bottom:1px solid #ececec;
+            &:hover{
+                background: #f1f1f1; 
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+

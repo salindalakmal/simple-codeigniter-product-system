@@ -22,11 +22,15 @@
  
 
 // Template Header
-@import "template_header";
+@import "template-header";
 // Template Navigation
-@import "template_navigation";
+@import "template-navigation";
 // Template Footer
-@import "template_footer";
+@import "template-footer";
+
+
+@import "categories";
+@import "products";
 
 
 

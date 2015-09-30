@@ -10048,13 +10048,9 @@ p {
 
 a {
   outline: none;
-  color: #8D0519;
   text-decoration: none;
   background: transparent;
   line-height: 1;
-}
-a:hover {
-  color: #8D0519;
 }
 a img {
   border: none;
@@ -10261,28 +10257,20 @@ table tr:nth-of-type(even) {
 /*----------  Layout styles  ----------*/
 .section {
   min-height: 400px;
-  padding-top: 1.5rem;
   position: relative;
 }
 
 .section-header h1 {
-  text-align: center;
   margin-bottom: 1.5rem;
-}
-.section-header h1 .store-name {
-  color: #8D0519;
-}
-.section-header h1 a {
-  color: #8D0519;
 }
 .section-header h1 a:hover, .section-header h1 a:focus {
   text-decoration: underline;
 }
 
-.content form {
+.section-content form {
   margin-top: 0.5rem;
 }
-.content h2 i {
+.section-content h2 i {
   font-size: 1rem;
   color: #8D0519;
   margin-right: 0.5rem;
@@ -10332,52 +10320,25 @@ table tr:nth-of-type(even) {
 }
 
 /*----------  Messages and Errors  ----------*/
-.message-general, .message-error, .message-seccess {
+.message {
   padding: 1rem 1rem 0.5rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
-
-.message-general {
+.message.general {
   background: #faf2cc;
 }
-
-.message-error {
+.message.error {
   background: #F60;
   background: rgba(255, 102, 0, 0.1);
   border: 1px solid rgba(255, 102, 0, 0.4);
 }
-
-.message-success {
+.message.success {
   background: #093;
   background: rgba(0, 153, 51, 0.1);
   border: 1px solid rgba(0, 153, 51, 0.4);
-}
-
-/* Email List */
-.emailMessage {
-  display: none;
-}
-
-#emailSubmit {
-  font-size: 18px;
-  padding: 5px 10px;
-}
-
-/* Error Page */
-.error_page_message {
-  font-family: "Open Sans", sans-serif;
-  color: #930e0e;
-  font-size: 48px;
-  width: 70%;
-  margin: 100px auto;
-  text-align: center;
-}
-
-.info1 .recipes_list {
-  display: none;
 }
 
 /*=============================================*/
@@ -10387,11 +10348,6 @@ table tr:nth-of-type(even) {
 /*=============================================*/
 /* Portrait and Landscape */
 @media only screen and (max-width: 640px) {
-  .columns {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   /*----------  Model window  ----------*/
   .model-header {
     padding: 1rem 1rem;
@@ -10417,128 +10373,6 @@ table tr:nth-of-type(even) {
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
-#header {
-  background: #ececec;
-  padding-top: 1rem;
-  margin: 1rem 0;
-}
-
-#section {
-  width: 780px;
-  float: left;
-  min-height: 500px;
-}
-
-#footer {
-  background: #ccc;
-  padding: 1rem;
-  margin-top: 1rem;
-  clear: both;
-}
-
-/****************************************/
-#categories {
-  width: 200px;
-  margin-right: 20px;
-  float: left;
-  background: #f1f1f1;
-  min-height: 500px ul;
-  min-height-list-style: none;
-}
-#categories li {
-  background: #ccc;
-  margin-bottom: 2px;
-}
-#categories li a {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #000;
-}
-#categories h2 {
-  padding: 10px 20px;
-  margin-bottom: 0;
-}
-
-#products {
-  margin-right: -20px;
-  margin-bottom: -20px;
-}
-#products h2 {
-  margin-bottom: 20px;
-}
-#products .products {
-  width: 164px;
-  margin-right: 20px;
-  height: 200px;
-  float: left;
-  margin-bottom: 20px;
-  background: #f9f9f9;
-  padding: 1%;
-}
-#products .products img {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 5px;
-  padding: 5px;
-  width: 152px;
-  background: #fff;
-}
-#products .products p {
-  margin-bottom: 0;
-}
-#products .products .disable_line {
-  text-decoration: line-through;
-}
-
-#container.dashboard #section {
-  width: 100%;
-}
-#container.dashboard #navigation {
-  margin-bottom: 1rem;
-}
-#container.dashboard #navigation ul {
-  list-style: none;
-  background: #540505;
-}
-#container.dashboard #navigation li {
-  display: inline-block;
-}
-#container.dashboard #navigation a {
-  display: block;
-  padding: 0.8rem 1rem;
-  color: #fff;
-  font-size: 0.7rem;
-}
-#container.dashboard #navigation a:hover {
-  background: #3c0404;
-}
-
-.logout {
-  display: inline-block;
-  padding: 0.8rem 1rem;
-  color: #fff;
-  font-size: 0.7rem;
-  background: #540505;
-  float: right;
-}
-.logout:hover {
-  background: #3c0404;
-  color: #fff;
-}
-
-.cancel {
-  display: inline-block;
-  padding: 0.8rem 1rem;
-  color: #000;
-  font-size: 0.7rem;
-  background: #ccc;
-  float: right;
-}
-.cancel:hover {
-  background: #bfbfbf;
-  color: #000;
-}
-
 /**
  *
  * Form and Form Elements
@@ -10649,263 +10483,56 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form button:ho
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
+/**
+ *
+ * Template Header
+ *
+ */
 #header {
-  background: #C49A58 url(../images/theme/header-bg-small.jpg) center no-repeat;
-  max-height: 167px;
-}
-
-.bottom-header .bottom-header-left {
-  position: relative;
-  text-align: center;
-}
-.bottom-header .logo {
-  margin: 0.6rem auto;
-  width: 202px;
-  height: 60px;
-  background: url(../images/logo-small.png) no-repeat;
-}
-.bottom-header h3.slogan {
-  font-size: 1.2rem;
-  color: #8D0519;
-  margin-top: -0.4rem;
-  margin-bottom: 0.4rem;
-}
-.bottom-header h3.slogan a {
-  color: #8D0519;
-}
-
-.top-header .store-name, .bottom-header .store-name {
-  padding: 0.3rem 0 0;
-}
-.top-header .store-name h2, .top-header .store-name h2 a, .bottom-header .store-name h2, .bottom-header .store-name h2 a {
+  background: #222;
+  padding-top: 1rem;
   color: #fff;
-  color: rgba(255, 255, 255, 0.9);
-  font-family: "Open Sans", sans-serif;
 }
-.top-header .store-name h2, .bottom-header .store-name h2 {
-  font-weight: 300;
-  font-size: 0.7rem;
-  margin-bottom: 0;
-  line-height: 1;
-}
-.top-header .store-name h2 #change-store, .top-header .store-name h2 #change-store a, .bottom-header .store-name h2 #change-store, .bottom-header .store-name h2 #change-store a {
-  text-decoration: underline;
-}
-.top-header .store-name h2 #change-store:hover, .top-header .store-name h2 #change-store:focus, .top-header .store-name h2 #change-store a:hover, .top-header .store-name h2 #change-store a:focus, .bottom-header .store-name h2 #change-store:hover, .bottom-header .store-name h2 #change-store:focus, .bottom-header .store-name h2 #change-store a:hover, .bottom-header .store-name h2 #change-store a:focus {
-  text-decoration: none;
-}
-.top-header .store-name .select-store, .bottom-header .store-name .select-store {
-  font-style: italic;
-}
-.top-header .store-name .select-store a, .bottom-header .store-name .select-store a {
-  text-decoration: none;
-}
-.top-header .store-name .select-store a:hover, .bottom-header .store-name .select-store a:hover {
-  text-decoration: underline;
-}
-.top-header .store-name p, .top-header .store-name p a, .bottom-header .store-name p, .bottom-header .store-name p a {
-  font-size: 0.55rem;
-  margin-bottom: 0;
-  color: #C49A58;
-}
-.top-header .customer-login, .bottom-header .customer-login {
-  padding: 0.2rem 0;
-  float: right;
-}
-.top-header .customer-login .button, .bottom-header .customer-login .button {
-  padding: 0.2rem 0.8rem;
-  background: #8D0519;
-}
-.top-header .customer-login .button:hover, .bottom-header .customer-login .button:hover {
-  background: #740415;
-}
-.top-header .customer-login .button.dropdown, .bottom-header .customer-login .button.dropdown {
-  padding-right: 2rem;
-}
-.top-header .customer-login .button.dropdown:after, .bottom-header .customer-login .button.dropdown:after {
-  border-width: 0.3rem;
-  right: 1rem;
-}
-
-#user-menu.f-dropdown, #user-menu-mobile.f-dropdown {
-  background-color: #ffffff;
-  border: none;
-  color: black;
-  text-transform: capitalize;
-}
-#user-menu.f-dropdown a, #user-menu-mobile.f-dropdown a {
-  color: black;
-  font-size: 0.7rem;
-}
-#user-menu.f-dropdown a:hover, #user-menu-mobile.f-dropdown a:hover {
-  background-color: #f5f5f5;
+#header h1 a {
+  color: #fff;
 }
 
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
-@media only screen and (max-width: 480px) {
-  .top-header .store-name p, .top-header .store-name p a, .bottom-header .store-name p, .bottom-header .store-name p a {
-    display: none;
-  }
-}
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
-@media only screen and (max-width: 640px) {
-  .bottom-header {
-    position: relative;
-  }
-  .bottom-header .bottom-header-left {
-    position: relative;
-    text-align: center;
-  }
-  .bottom-header .logo {
-    margin: 0.6rem auto;
-    width: 202px;
-    height: 60px;
-    background: url(../images/logo-small.png) no-repeat;
-  }
-  .bottom-header h3.slogan {
-    font-size: 1.2rem;
-    color: #8D0519;
-    margin-top: -0.4rem;
-    margin-bottom: 0.5rem;
-  }
-  .bottom-header h3.slogan a {
-    color: #8D0519;
-  }
-
-  .top-header {
-    background: #540505;
-  }
-  .top-header .customer-login .button {
-    height: 1.6rem;
-    line-height: 1.1rem;
-  }
-  .top-header .customer-login .button i {
-    font-size: 1rem;
-  }
-}
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
-@media only screen and (min-width: 641px) {
-  #header {
-    background: #C49A58 url(../images/theme/header-bg.jpg) center no-repeat;
-  }
-
-  .top-header .lang-selector {
-    background: url(../images/theme/lang-bg.png) left top no-repeat;
-    height: 37px;
-    position: relative;
-  }
-  .top-header .lang-selector ul {
-    font-size: 0.7rem;
-    position: relative;
-    top: 0.6rem;
-    left: 0.3rem;
-  }
-  .top-header .lang-selector li {
-    float: left;
-    padding-left: 0.4rem;
-  }
-  .top-header .lang-selector li:first-child a {
-    border-right: 1px solid #fff;
-  }
-  .top-header .lang-selector li a {
-    color: #fff;
-    font-size: 0.7rem;
-    padding-right: 0.4rem;
-  }
-  .top-header .lang-selector li a:hover {
-    text-decoration: underline;
-  }
-  .top-header .social-media {
-    background: url(../images/theme/soical-bg.png) right top no-repeat;
-    height: 37px;
-  }
-  .top-header .social-media ul {
-    float: right;
-  }
-  .top-header .social-media li {
-    padding: 0.4rem 0;
-    float: left;
-  }
-  .top-header .social-media li:last-child a {
-    border-right: 0;
-  }
-  .top-header .social-media li a {
-    border-right: 1px solid #6D2A2A;
-    display: block;
-    padding: 0 0.65rem;
-  }
-  .top-header .social-media li a:hover i {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .top-header .social-media li i {
-    color: #fff;
-    font-size: 0.85rem;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-
-  .bottom-header .bottom-header-left {
-    text-align: left;
-  }
-  .bottom-header .logo {
-    margin: 1rem 0;
-    width: 269px;
-    height: 80px;
-    background: url(../images/logo.png) no-repeat;
-  }
-  .bottom-header h3.slogan {
-    position: absolute;
-    top: 3.5rem;
-    left: 15rem;
-  }
-  .bottom-header .bottom-header-right {
-    text-align: right;
-  }
-  .bottom-header .store-name h2, .bottom-header .store-name h2 a {
-    color: #222;
-  }
-  .bottom-header .store-name h2 {
-    font-size: 0.8rem;
-    margin-bottom: 0.2rem;
-    font-weight: 400;
-  }
-  .bottom-header .store-name .select-store a {
-    text-decoration: underline;
-  }
-  .bottom-header .store-name .select-store a:hover {
-    text-decoration: none;
-  }
-  .bottom-header .store-name p, .bottom-header .store-name p a {
-    color: #8D0519;
-    font-size: 0.65rem;
-    line-height: 1;
-    margin-bottom: 0;
-    font-weight: 400;
-  }
-  .bottom-header .customer-login {
-    float: none;
-    margin: 0.8rem 0 0.4rem;
-    padding: 0;
-  }
-  .bottom-header .customer-login .button {
-    padding: 0.5rem 1rem;
-  }
-  .bottom-header .customer-login .button i {
-    margin-right: 0.4rem;
-  }
-  .bottom-header .customer-login li {
-    text-align: left;
-  }
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/**
+ *
+ * Tempalte Navigation
+ *
+ */
+#navigaiton {
+  margin-bottom: 1.5rem;
 }
+
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */
@@ -10921,21 +10548,20 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form button:ho
  *
  */
 #footer {
-  background: #8d0519;
+  background: #f0f0f0;
   margin-top: 1.5rem;
-  padding: 1.5rem 0 2rem;
-}
-#footer p, #footer h3, #footer a {
-  color: #fff;
-  font-family: "PT Sans", sans-serif;
-}
-#footer a {
-  font-size: 13px;
+  padding: 1rem 0 0.5rem;
+  border-top: 1px solid #ececec;
 }
 #footer h3 {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+}
+#footer p, #footer a {
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: #999;
 }
 #footer .footer {
   margin-bottom: 1rem;
@@ -10943,26 +10569,89 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form button:ho
 #footer .footer li {
   padding-left: 1rem;
   margin-bottom: 0.5rem;
-  background: url(../images/theme/arrow.jpg) center left no-repeat;
 }
-#footer #footer-contact p {
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
+
+/**
+ *
+ * Category Layouts
+ *
+ */
+#categories {
+  background: #444;
 }
-#footer .social-links li {
-  padding-left: 0;
+#categories h3 {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+#categories h3 a {
+  color: #fff;
+}
+#categories li a {
+  display: block;
+  padding: 0.7rem 1rem;
+  color: #666;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ececec;
+}
+#categories li a:hover {
+  background: #f1f1f1;
+  text-decoration: none;
+}
+
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/**
+ *
+ * Products Layouts
+ *
+ */
+.products h4 {
+  margin-bottom: 20px;
+}
+.products .product {
+  background: #f9f9f9;
+  margin-bottom: 1rem;
+  height: 250px;
+  padding: 0.5rem;
+}
+.products .product img {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 100%;
   background: #fff;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
 }
-#footer .social-links li i {
-  color: #8D0519;
-  font-size: 1rem;
+.products .product h4 {
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
 }
+.products .product p {
+  margin-bottom: 0;
+}
+.products .product .disable_line {
+  text-decoration: line-through;
+}
+
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */
+/*=============================================*/
+/*=============================================*/
+/* Portrait and Landscape */

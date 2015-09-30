@@ -32,7 +32,7 @@ class MY_Model extends CI_Model {
             if($query->num_rows() == 1){
                 return $query->row();
             } else{
-                return false;
+                return FALSE;
             }
 
         }else{
@@ -49,7 +49,7 @@ class MY_Model extends CI_Model {
                 if($query->num_rows() > 0){
                     return $query->result();
                 } else{
-                    return false;
+                    return FALSE;
                 }
 
             } else {
@@ -64,7 +64,7 @@ class MY_Model extends CI_Model {
                 if($query->num_rows() > 0){
                     return $query->result();
                 } else{
-                    return false;
+                    return FALSE;
                 }
 
             }
@@ -82,7 +82,7 @@ class MY_Model extends CI_Model {
         if($query->num_rows() == 1){
             return $query->row()->id;
         } else{
-            return false;
+            return FALSE;
         }
 
     }
@@ -94,7 +94,7 @@ class MY_Model extends CI_Model {
 
         $this->db->insert($this->CI->table, $this); 
         $this->id = $this->db->insert_id();
-        return true;
+        return FALSE;
         
     }
 
@@ -105,7 +105,7 @@ class MY_Model extends CI_Model {
 
         $this->db->where('id', $this->id);
         $this->db->update($this->CI->table, $this); 
-        return true;
+        return FALSE;
 
     }
 

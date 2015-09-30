@@ -9,28 +9,10 @@ class Categories extends MY_Controller {
 
     }
 
-	public function index($category = ''){
+	public function index(){
 		
-		if($category){
-
-			$categoryObj = new categories_model();
-			$categoryObj->where = array('name' => $category);
-			$categoryObj->id = $categoryObj->get_id();
-
-			$productsObj = new products_model();
-			$productsObj->where = array('status' => 1, 'category' => $categoryObj->id);
-			$this->data['products'] = $productsObj->get();
-			
-			$this->data['content'] = 'pages/products';
-			$this->load->view('layout', $this->data);
-
-		} else {
-
-			$this->data['content'] = 'pages/category';
-			$this->load->view('layout', $this->data);
-
-		}
-
+		$this->data['content'] = 'pages/category';
+		$this->load->view('layout', $this->data);
 
 	}
 
