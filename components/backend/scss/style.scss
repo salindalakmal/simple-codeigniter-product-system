@@ -1,0 +1,36 @@
+// Import form bower_compontes
+@import "font-awesome/scss/font-awesome"; 
+
+// Initial setup font, sass mixins and variables
+@import "fonts";    
+@import "mixins"; 
+@import "variables";  
+//@import "animations";
+//@import "foundation-fonts"; 
+
+// Import plugins
+@import "plugins/fancybox";  
+
+// Custom framwork styles
+@import "base";
+// Common styles for all pages
+@import "common";
+// Common styles for Froms
+@import "forms"; 
+ 
+
+// Template Header
+@import "template_header";
+// Template Navigation
+@import "template_navigation";
+// Template Footer
+@import "template_footer";
+
+@import "home";
+
+
+
+
+
+
+

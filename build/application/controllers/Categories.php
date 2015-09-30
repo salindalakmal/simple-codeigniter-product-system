@@ -7,8 +7,6 @@ class Categories extends MY_Controller {
 	
         parent::__construct();
 
-        
-
     }
 
 	public function index($category = ''){
@@ -23,19 +21,18 @@ class Categories extends MY_Controller {
 			$productsObj->where = array('status' => 1, 'category' => $categoryObj->id);
 			$this->data['products'] = $productsObj->get();
 			
-
-			$this->load->view('products', $this->data);
+			$this->data['content'] = 'pages/products';
+			$this->load->view('layout', $this->data);
 
 		} else {
 
-			$this->load->view('category', $this->data);
+			$this->data['content'] = 'pages/category';
+			$this->load->view('layout', $this->data);
 
 		}
 
 
 	}
-
-	
 
 
 }

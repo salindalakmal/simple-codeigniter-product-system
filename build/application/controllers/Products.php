@@ -22,7 +22,8 @@ class Products extends MY_Controller {
 			$productObj->id = $productObj->get_id('name', $product);
 			$this->data['product'] = $productObj->get();
 
-			$this->load->view('product_view', $this->data);
+			$this->data['content'] = 'pages/product_view';
+			$this->load->view('layout', $this->data);
 
 		} else{
 
@@ -30,7 +31,8 @@ class Products extends MY_Controller {
 			$productObj->where = array('status' => 1);
 			$this->data['products'] = $productObj->get();
 
-			$this->load->view('products', $this->data);
+			$this->data['content'] = 'pages/products';
+			$this->load->view('layout', $this->data);
 
 		}	
 

@@ -12,20 +12,20 @@ var gulp = require('gulp'),
 
 var reload  = browserSync.reload;
 
-var frontend_theme_dir = 'build';
-var backend_theme_dir = 'build/admin';
+var frontend_theme_dir = 'build/theme';
+var backend_theme_dir = 'build/admin/theme';
 
 var frontend_js_sources = [
     'bower_components/fastclick/lib/fastclick.js',
-    'bower_components/foundation/js/foundation.js',
+    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
     'bower_components/fancybox/source/jquery.fancybox.js',
-    'components/theme/scripts/common.js',
-    'components/theme/scripts/forms.js',
+    'components/frontend/scripts/common.js',
+    'components/frontend/scripts/forms.js',
 ];
 
 var backend_js_sources = [
     'bower_components/fastclick/lib/fastclick.js',
-    'bower_components/foundation/js/foundation.js',
+    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
     'bower_components/fancybox/source/jquery.fancybox.js',
     'components/app/scripts/common.js',
     'components/app/scripts/forms.js',
@@ -63,10 +63,10 @@ gulp.task('backend_theme_files_move', function() {
 });
 
 gulp.task('frontend_compass', function() {
-    gulp.src('components/theme/scss/style.scss')
+    gulp.src('components/frontend/scss/style.scss')
     .pipe(compass({
         config_file: './config.rb',
-        sass: 'components/theme/scss',
+        sass: 'components/frontend/scss',
         css: frontend_theme_dir + '/css'
     })
     .on('error', gutil.log))
@@ -75,10 +75,10 @@ gulp.task('frontend_compass', function() {
 });
 
 gulp.task('backend_compass', function() {
-    gulp.src('components/app/scss/style.scss')
+    gulp.src('components/backend/scss/style.scss')
     .pipe(compass({
         config_file: './config.rb',
-        sass: 'components/app/scss',
+        sass: 'components/backend/scss',
         css: backend_theme_dir + '/css'
     })
     .on('error', gutil.log))
@@ -101,21 +101,21 @@ gulp.task('backend_modernizr', function() {
 });
 
 gulp.task('frontend_js_custom', function() {
-    gulp.src('components/theme/scripts/custom/*.js')
+    gulp.src('components/frontend/scripts/custom/*.js')
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(frontend_theme_dir + '/js/custom'))
     .pipe(reload({stream:true}));
 });
 
 gulp.task('frontend_js_vendor', function() {
-    gulp.src('components/theme/scripts/vendor/*.js')
+    gulp.src('components/frontend/scripts/vendor/*.js')
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(frontend_theme_dir + '/js/vendor'))
     .pipe(reload({stream:true}));
 });
 
 gulp.task('frontend_js', function() {
-    gulp.src(frontend_theme_js_sources)
+    gulp.src(frontend_js_sources)
     .pipe(concat('theme.js'))
     .pipe(browserify())
     .pipe(gulpif(env === 'production', uglify()))
@@ -124,22 +124,22 @@ gulp.task('frontend_js', function() {
 });
 
 gulp.task('backend_js_custom', function() {
-    gulp.src('components/app/scripts/custom/*.js')
+    gulp.src('components/backend/scripts/custom/*.js')
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(backend_theme_dir + '/js/custom'))
     .pipe(reload({stream:true}));
 });
 
 gulp.task('backend_js_vendor', function() {
-    gulp.src('components/app/scripts/vendor/*.js')
+    gulp.src('components/backend/scripts/vendor/*.js')
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(backend_theme_dir + '/js/vendor'))
     .pipe(reload({stream:true}));
 });
 
 gulp.task('backend_js', function() {
-    gulp.src(app_theme_js_sources)
-    .pipe(concat('theme.js'))
+    gulp.src(backend_js_sources)
+    .pipe(concat('app.js'))
     .pipe(browserify())
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(backend_theme_dir + '/js'))
@@ -171,16 +171,16 @@ gulp.task('clear_cache', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch(frontend_theme_js_sources, ['frontend_js']);
-    gulp.watch('components/theme/scripts/vendor/*.js', ['frontend_js_vendor']);
-    gulp.watch('components/theme/scripts/custom/*.js', ['frontend_js_custom']);
-    gulp.watch('components/theme/scss/*.scss', ['frontend_compass']);
+    gulp.watch(frontend_js_sources, ['frontend_js']);
+    gulp.watch('components/frontend/scripts/vendor/*.js', ['frontend_js_vendor']);
+    gulp.watch('components/frontend/scripts/custom/*.js', ['frontend_js_custom']);
+    gulp.watch('components/frontend/scss/*.scss', ['frontend_compass']);
     gulp.watch(frontend_theme_dir + '/images/**/*.*', ['frontend_theme_images']);
-    gulp.watch(app_theme_js_sources, ['backend_js']);
-    gulp.watch('components/app/scripts/vendor/*.js', ['backend_js_vendor']);
-    gulp.watch('components/app/scripts/custom/*.js', ['backend_js_custom']);
-    gulp.watch('components/app/scss/*.scss', ['backend_theme_compass']);
-    gulp.watch(app_theme_dir + '/images/**/*.*', ['backend_theme_images']);
+    gulp.watch(backend_js_sources, ['backend_js']);
+    gulp.watch('components/backend/scripts/vendor/*.js', ['backend_js_vendor']);
+    gulp.watch('components/backend/scripts/custom/*.js', ['backend_js_custom']);
+    gulp.watch('components/backend/scss/*.scss', ['backend_theme_compass']);
+    gulp.watch(backend_theme_dir + '/images/**/*.*', ['backend_theme_images']);
 });
 
 gulp.task('default', ['frontend_theme_files_move', 'backend_theme_files_move', 'frontend_modernizr', 'backend_modernizr', 'frontend_js_custom', 'frontend_js_vendor', 'frontend_js', 'backend_js_custom', 'backend_js_vendor', 'backend_js', 'frontend_compass', 'backend_compass', 'backend_theme_images', 'backend_theme_images', 'browser_sync', 'clear_cache', 'watch']);

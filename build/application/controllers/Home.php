@@ -18,7 +18,8 @@ class Home extends MY_Controller {
 		$productObj->where = array('status' => 1);
 		$this->data['products'] = $productObj->get();
 
-		$this->load->view('home', $this->data);
+		$this->data['content'] = 'pages/home';
+		$this->load->view('layout', $this->data);
 
 	}
 
