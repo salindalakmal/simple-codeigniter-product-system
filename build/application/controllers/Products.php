@@ -3,9 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Products extends MY_Controller {
 
+
 	public function __construct() {
 	
         parent::__construct();
+
+        $this->page = $this->config->item('pages')['products'];
 
     }
 
@@ -30,6 +33,14 @@ class Products extends MY_Controller {
 				$this->data['product']->category_url = $category->url; 
 			}
 
+			/*----------  Meta Details  ----------*/
+			$this->data['title'] = $this->data['product']->name . ' | ' .  $this->page['title'];
+			$this->data['keywords'] = $this->data['product']->meta_keywords;
+			$this->data['description'] = $this->data['product']->meta_description;
+			$this->data['social_meta_title'] = ($this->data['product']->social_meta_title) ? $this->data['product']->social_meta_title : $this->data['product']->name . ' | ' .  $this->page['title'];
+			$this->data['social_meta_image'] = ($this->data['product']->social_meta_image) ? $this->data['product']->social_meta_image : '';
+			/*----------  End Meta Details  ----------*/
+
 			$this->data['content'] = 'pages/product_view';
 			$this->load->view('layout', $this->data);
 
@@ -45,7 +56,17 @@ class Products extends MY_Controller {
 					$categoryObj->where = array('url' => $category_url);
 					$categoryObj->id = $categoryObj->get_id();
 					$category = $categoryObj->get();
+
 					$this->data['heading'] = $category->name;
+
+					/*----------  Meta Details  ----------*/
+					$this->data['title'] = $category->name . ' | ' .  $this->page['title'];
+					$this->data['keywords'] = $category->meta_keywords;
+					$this->data['description'] = $category->meta_description;
+					$this->data['current_url'] = current_url() . '?category=' . $category_url;
+					$this->data['social_meta_title'] = ($category->social_meta_title) ? $category->social_meta_title : $category->name . ' | ' .  $this->page['title'];
+					$this->data['social_meta_image'] = ($category->social_meta_image) ? $category->social_meta_image : '';
+					/*----------  End Meta Details  ----------*/
 
 					$productObj->where = array('published' => 1, 'category' => $categoryObj->id);
 					
@@ -59,6 +80,14 @@ class Products extends MY_Controller {
 			} else{
 
 				$productObj->where = array('published' => 1);
+
+				/*----------  Meta Details  ----------*/
+				$this->data['title'] = $this->page['title'];
+				$this->data['keywords'] = $this->page['keywords'];
+				$this->data['description'] = $this->page['description'];
+				$this->data['social_meta_title'] = $this->page['social_meta_title'];
+				$this->data['social_meta_image'] = $this->page['social_meta_image'];
+				/*----------  End Meta Details  ----------*/
 
 			}
 
