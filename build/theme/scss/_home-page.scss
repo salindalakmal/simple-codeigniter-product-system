@@ -1,0 +1,159 @@
+/*
+*
+* Weekly Ad Home Page
+*
+*/
+.store{ 
+    padding: 0.5rem 0.5rem 0.25rem; 
+    margin-bottom:0.8rem;
+    border:1px solid #f2f2f2;
+    @include transitionall(0.4s);
+    @include box-shadow(0 0 1px rgba(0,0,0,0.05));
+    &:last-child{
+        margin-bottom:0;
+    }
+    &:hover, &:focus{
+        background:#f9f9f9;
+        border:1px solid #f1f1f1;
+        @include box-shadow(0 0 1px rgba(0,0,0,0.1));
+    }
+}
+.store-image {
+    &.columns{
+        padding:0;
+    }
+    img{
+        border:1px solid #FBEED5;
+    }
+}
+.store-info {
+    &.columns{
+        padding-right:0;
+    }
+    h4 {
+        color: $store-clr03;
+        font-size: $fz04;
+        margin-bottom:0.3rem;
+        a{
+            color: $store-clr03;
+        }
+    } 
+    p{
+        margin-bottom:0.3rem;
+        font-size: 0.6rem; 
+    }
+    button, .button{
+        font-size:$fz06;
+        margin: 0 0.1rem 0.25rem 0;
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+
+
+
+
+
+ 
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 480px) {     
+
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+.store{ 
+    padding: 0.8rem 0.8rem 0.55rem; 
+}
+
+.store-info {
+    &.columns{
+        padding-left:0.8rem;
+    }
+}
+
+#store-map-wrapper{
+    &.columns{
+        padding-left:0;
+    }
+}
+#store-map {
+    height:27rem;
+    border:1px solid #f2f2f2;
+}
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+.store{ 
+    padding: 1rem; 
+    margin-bottom:1rem;
+}
+
+.store-info {
+    &.columns{
+        padding-left:1rem;
+    }
+    h4 {
+        font-size: $fz03;
+    } 
+    p{
+        margin-bottom:0.3rem;
+        font-size: $fz06; 
+    }
+    button, .button{
+        font-size:$fzM;
+        margin: 0.4rem 0.2rem 0 0;
+        padding: 0.6rem 1rem;
+    }
+}
+
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+

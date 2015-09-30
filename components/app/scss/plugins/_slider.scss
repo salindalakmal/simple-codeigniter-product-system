@@ -1,0 +1,164 @@
+
+/*************** Slider ****************/
+#slider{
+	.flexslider{
+		position:relative;
+		overflow:hidden;
+		//min-height:400px;
+	}
+	.flex-control-nav{
+		display:none;
+	}
+}
+
+.flex-caption {
+    position: absolute;
+	z-index:1000;
+	width:100%;
+	bottom:0rem;
+	left:0;
+	background:rgba(0,0,0,0.6);
+	padding:0.5rem 0.9375rem;
+    h4{
+		font-size: $fz03;
+		color:#fff;
+		margin:0;
+		a{
+			color:#fff;
+		}
+    }
+
+}
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Max Width 767px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 767px) {  
+
+.flex-caption {
+    .caption{
+    	display:none;
+    }
+}
+
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+.flexslider{
+	
+}
+#slider{
+	.flex-direction-nav{
+		display:none;
+	}
+	.flex-control-nav{
+		display:block;
+		text-align: center;
+		bottom:0rem;
+		left:0;
+		margin-left: 0;
+	    li {
+	        margin: 0 4px; 
+	    }
+	}
+	// Control paging
+	
+}
+
+.flex-caption {
+	padding:1rem 0 1.5rem;
+	height:160px;
+	> .row{
+		padding:0 0.9375rem;
+	}
+    h4{
+    	font-weight: 700;
+		font-size: $fz02;
+		margin-bottom:0.5rem;
+    }
+    p{
+    	color:#fff;
+    	text-align: left;
+    	font-size:$fzM;
+    }
+    .button{
+		border:1px solid #fff;
+		background:none;
+    }
+
+}
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+.flex-caption {
+	padding:1.5rem 0 1.5rem;
+	height:180px;
+    h4{
+		font-size: $fz01;
+    }
+    p{
+    	font-size:$fz05;
+    }
+
+}
+
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+.flex-caption {
+	height:200px;
+	> .row{
+		padding:0;
+	}
+
+}   	
+
+} /////////////// End ///////////////
+
+ 

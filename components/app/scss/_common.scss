@@ -1,0 +1,200 @@
+/**
+ *
+ * Common styles
+ *
+ */
+
+
+/*----------  Layout styles  ----------*/
+
+.section{
+	min-height: 400px;
+    padding-top:1.5rem;
+    position:relative;
+}
+.section-header{
+    h1{
+        display: inline-block;
+        margin-bottom:2rem;
+        margin-right: 1rem;
+        a{
+            &:hover, &:focus{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+/*----------  Model window  ----------*/
+.model{
+    display: none; 
+    &.confirm{
+        min-width: 300px;
+        width:400px;
+        .model-header{
+            padding:1rem;
+            @include border-radius(5px 5px 0 0);
+            p{
+                font-weight: 600;
+            }
+        }
+        .model-content{
+            padding:1rem 1rem 0.5rem;
+
+        }
+        .model-footer{
+            padding:0 1rem;
+        }
+    }
+}
+.model-header{
+    padding:1rem 1.5rem;
+    background:#f1f1f1;
+    h1, h2, h3{
+        color: #555;
+        font-family: $fontM;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-size: $fz03;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.model-content{
+    padding:1.5rem;
+    position:relative;
+}
+.model-footer{
+    padding:0 1.5rem;
+}
+
+
+
+/*----------  Messages and Errors  ----------*/
+
+.message{
+    font-size: $fz06;
+    padding: 0.8rem 1rem 0.3rem; 
+    margin-bottom: 1rem;
+    @include border-radius(2px);
+    p{
+        font-size: $fz06;
+        line-height: 1;
+    }
+    &.general{      
+        background: #faf2cc; 
+    }
+    &.error{   
+        color: rgba(255,102,0, 0.4);   
+        background:#F60;
+        background:rgba(255,102,0, 0.1);
+        border:1px solid rgba(255,102,0, 0.4);
+        p{
+            color: rgba(255,102,0, 0.8);   
+        }
+    }
+    &.success{   
+        color: rgba(0,153,51, 0.8);    
+        background:#093;
+        background:rgba(0,153,51, 0.1);
+        border:1px solid rgba(0,153,51, 0.4);
+        p{
+            color: rgba(0,153,51, 0.8);   
+        }
+    }
+}
+
+
+
+
+
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */ 
+@media only screen 
+    and (max-width: 480px) {  
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Max Width 640px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 640px) {
+
+.columns{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}  
+
+/*----------  Model window  ----------*/
+.model-header{
+    padding:1rem 1rem;
+}
+.model-content{
+    padding:1rem;
+} 
+.model-footer{
+    padding:0 1rem;
+} 
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+

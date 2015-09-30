@@ -1,0 +1,109 @@
+/**
+ *
+ * More Photos Page
+ *
+ */
+
+.uploaded-images-preview{
+	padding-bottom:2rem;
+	h3{
+		margin-bottom: 0.2rem;
+	}
+}
+.uploaded-images{
+	li{
+		img{
+			display: block;
+			width: 100%;
+		}
+		a{
+			font-size: 0.6rem;
+			display: block;
+			background: #f0f0f0;
+			padding:0.2rem;
+			@include transitionall(0.3s);
+			&:hover{
+				background:darken(#f0f0f0, 5%);
+			}
+			i{
+				margin-right: 0.2rem;
+			}
+		}
+	}
+}
+
+
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 480px) {  
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Max Width 640px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 640px) {  
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+
+
+
+

@@ -1,0 +1,107 @@
+/**
+ *
+ * Template Footer
+ *
+ */
+
+#footer {
+	background:#f1f1f1;
+	margin-top:1.5rem; 
+	border-top:1px solid darken(#f1f1f1, 2%);
+	#copyright{
+		.row{
+			padding: 0em 0.9375rem ;
+		}
+		p{
+			margin: 0;
+			padding:1em 0;
+			font-weight: 400;
+			color: #777;
+			a{
+				color: #12692D;
+				&:hover{
+					text-decoration:underline;
+				}
+			}
+			&.text-right{
+				text-align: right;	
+			}
+		}
+	}
+
+}
+
+
+
+
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 480px) { 
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Max Width 640px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 640px) { 
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+
+        

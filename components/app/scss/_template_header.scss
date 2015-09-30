@@ -1,0 +1,116 @@
+/**
+ *
+ * Template Header
+ *
+ */
+#header{
+	background:$clr01;
+	.header-left{
+		h2{
+			margin-bottom: 0;
+			color: #fff;
+			font-family: $font03;
+			font-size: 1rem;
+			line-height: 2;
+			margin:0.5rem 0;
+			a{
+				color: #fff;
+			}
+			span{
+				font-family:$fontM;
+				font-size: 1rem;
+				color: #F0F0F0;
+				border-left: 1px solid #fff;
+				margin-left: 1rem;
+				padding-left:1rem;
+			}
+		}
+	}
+	.header-right{
+		.logout-link{
+			margin-top: 0.6rem;
+			font-family: $fontM;
+			font-size: $fz06;
+			color: #FFFFFF;
+			line-height: 1.4;
+			font-weight: normal;
+			display: inline-block;
+			span{
+				display: block;
+			}
+		}
+	}
+}
+
+
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */ 
+@media only screen 
+    and (max-width: 480px) { 
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Max Width 640px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 640px) { 
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+
+        

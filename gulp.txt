@@ -1,0 +1,15 @@
+## Copy below code and Paste to Command Prompt 
+
+npm install --save-dev gulp gulp-util gulp-browserify gulp-compass browser-sync gulp-if gulp-uglify gulp-minify-html gulp-jsonminify gulp-imagemin imagemin-pngcrush gulp-concat gulp-cache
+
+## ***** Node.js required *****
+
+## Change 'browser-sync' task 'proxy' address in gulpfile.js (Optional)
+
+
+
+  
+   
+
+
+

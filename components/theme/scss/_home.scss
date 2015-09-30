@@ -1,0 +1,134 @@
+/*
+*
+*  Home Page
+*
+*/
+
+
+#home-description{
+    margin-bottom: 1rem;
+    h3{
+        margin-bottom: 0.5rem;
+    }
+    img{
+        width: 190px;
+    }
+}
+ 
+.estate-category{
+    margin-bottom:2rem;
+}
+.estate{
+    margin-bottom:1.5rem;
+    .estate-details{
+        &.columns{
+            padding-right:0;
+        }
+        table{
+            width: 100%;
+            tr{
+                td{
+                    padding:0.4rem;
+                    &.image{
+                        border:0;
+                        vertical-align: top;
+                        padding: 0 0.5rem 0 0;
+                        width:280px;
+                        img{
+                            height:240px;
+                        }
+                    }
+                    &.location{
+                        height: 200px;
+                    }
+                    &.property-no{
+                        span{
+                            display: inline-block;
+                        }
+                    }
+                    &.secondary-images{
+                        padding:0;
+                        li{
+                            float: left;
+                            margin: 0.2rem 0 0.2rem 0.2rem;
+                        }
+                        img{
+                            display: block;
+                            width: 60px;
+                            height: 50px;
+                        }
+                    }
+                    &.same{
+                        height: 80px;
+                        width: 90px;
+                    }
+                    span{
+                        display: block;
+                        color: $link-clr01;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+ 
+/*=============================================*/
+// Max Width 480px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (max-width: 480px) {     
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 641px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 641px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px 
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 768px) {  
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px     
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////
+

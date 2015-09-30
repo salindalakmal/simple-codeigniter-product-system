@@ -1,0 +1,281 @@
+
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+
+.flex-container, .flex-slider{
+    a:hover, a:focus{
+        outline: none;
+    }
+}
+
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+} 
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+
+.flexslider {
+    margin: 0; 
+    padding: 0;
+    overflow:hidden;
+    .slides {
+        > li {
+            display: none; 
+            -webkit-backface-visibility: hidden;
+        }
+        img{
+            width: 100%;
+            display: block;
+        }
+
+        // Clearfix for the .slides element
+        &:after{
+            content: "\0020"; 
+            display: block; 
+            clear: both; 
+            visibility: hidden; 
+            line-height: 0; 
+            height: 0;
+        }
+        html[xmlns] &{
+            display: block;
+        }
+        * html &{
+            height: 1%;
+        }
+
+        // No JavaScript Fallback
+        // If you are not using another script, such as Modernizr, make sure you
+        // include js that eliminates this class on page load
+        .no-js &{
+            > li{
+                &:first-child{
+                    display: block;
+                }
+            }
+        }
+    } 
+}
+
+
+
+/* ====================================================================================================================
+ * DEFAULT THEME
+ * ====================================================================================================================*/
+.flexslider { 
+    margin: 0px; 
+    background: #fff; 
+    position: relative;
+    zoom: 1; 
+    .slides{
+        zoom: 1;
+    }
+}
+.flex-viewport { 
+    max-height: 2000px; 
+    @include transitionall(1s);
+    .loading &{
+        max-height: 350px;
+    }
+}
+.carousel li { 
+    margin-right: 5px; 
+}
+
+
+// Direction Nav
+.flex-direction-nav {
+    *height: 0;
+    // Global styles
+    a  { 
+        text-decoration:none; 
+        display: block; 
+        width: 40px; 
+        height: 40px; 
+        margin: -20px 0 0; 
+        position: absolute; 
+        top: 50%; 
+        z-index: 10; 
+        overflow: hidden; 
+        opacity: 0; 
+        cursor: pointer; 
+        color: rgba(255,255,255,0.9); 
+        text-shadow: 1px 1px 0 rgba( 0, 0, 0, 0.3 );
+
+        @include transitionall(0.3s);
+        &:before  { 
+
+            font-family: "FontAwesome"; 
+            font-size: 40px; 
+            display: inline-block; 
+            content: '\f104';
+
+        }
+        &.flex-next:before { 
+            content: '\f105';
+        }
+    }
+
+    // Prev
+    .flex-prev { 
+        left: -50px;
+    }
+
+
+    // Next
+    .flex-next { 
+        right: -50px; 
+        text-align: right;
+    }
+
+    // Hover states
+    .flexslider:hover &{
+        .flex-prev { 
+            opacity: 0.7; 
+            left: 10px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        .flex-next { 
+            opacity: 0.7; 
+            right: 10px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+
+  
+    // Disabled
+    .flex-disabled { 
+
+        opacity: 0!important; 
+        filter: alpha(opacity=0); 
+        cursor: default;
+    }
+}
+
+
+// Pause/Play
+.flex-pauseplay a {
+    display: block; 
+    width: 20px; 
+    height: 20px; 
+    position: absolute; 
+    bottom: 5px; 
+    left: 10px; 
+    opacity: 0.8; 
+    z-index: 10; 
+    overflow: hidden; 
+    cursor: pointer; 
+    &:before { 
+        font-family: "flexslider-icon"; 
+        font-size: 20px; 
+        display: inline-block; 
+        content: '\f004';
+    }
+    &:hover {
+        opacity: 1;
+    }
+    .flex-play:before { 
+        content: '\f005';
+    }
+}
+
+
+// Control Nav
+.flex-control-nav {
+    width: 100%; 
+    position: absolute; 
+    bottom: 82px; 
+    z-index: 100;
+    left:50%;
+    margin-left: -505px;
+    li {
+
+        margin: 0 6px; 
+        display: inline-block; 
+        zoom: 1; 
+        *display: inline;
+    }
+}
+
+
+// Control paging
+.flex-control-paging li {
+    a {
+        width: 12px; 
+        height: 12px; 
+        display: block; 
+        background: #666; 
+        background: rgba(255,255,255,0.4); 
+        cursor: pointer; 
+        text-indent: -9999px;
+        @include border-radius(20px);
+        @include box-shadow( 0 0 3px rgba(255,255,255,0.3) inset);
+        &:hover { 
+        background: #333; 
+        background: rgba(255,255,255, 0.5);
+        }
+        &.flex-active { 
+        background: #000;
+        background: rgba(255,255,255, 0.6);
+        cursor: default;
+        }
+    }
+}
+
+
+.flex-control-thumbs {
+    margin: 5px 0 0; 
+    position: static; 
+    overflow: hidden;
+    li {
+        width: 25%; 
+        float: left; 
+        margin: 0;
+    }
+    img {
+        width: 100%; 
+        display: block; 
+        opacity: .7; 
+        cursor: pointer;
+        @include transitionall(1s);
+        &:hover {opacity: 1;}
+    }
+    .flex-active {
+        opacity: 1; 
+        cursor: default;
+    }
+}
+
+
+
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+
+@media screen and (max-width: 860px) {
+    .flex-direction-nav{
+        .flex-prev { 
+            opacity: 1; 
+            left: 10px;
+        }
+        .flex-next { 
+            opacity: 1; 
+            right: 10px;
+        }
+    }
+}
