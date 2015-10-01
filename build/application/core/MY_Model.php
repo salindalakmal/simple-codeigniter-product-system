@@ -134,5 +134,13 @@ class MY_Model extends CI_Model {
     }
 
 
+    /**
+     * Count records.
+     */
+    public function count() {
+        return $this->get();
+    }
+
+
     
 }
