@@ -1,4 +1,4 @@
-# simple-codeigniter-product-system
+# Simple Codeigniter Product System
 
 boostrap-sass
 https://github.com/twbs/bootstrap-sass

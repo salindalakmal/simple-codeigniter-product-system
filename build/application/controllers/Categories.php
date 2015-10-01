@@ -13,18 +13,27 @@ class Categories extends MY_Controller {
 
 		$categoryObj = new categories_model();
         $categoryObj->where = array('published' => 1);
-		$this->data['categories'] = $categoryObj->get();
+		$row_count = $categoryObj->count();
 
-		$rows = 
+		// Customize pagination 
+	    $config = $this->config->item('pagination');
 
-		$config['base_url'] = current_url();
-		$config['total_rows'] = 200;
+		$config['base_url'] = base_url('categories');
+		$config['total_rows'] = $row_count;
 		$config['per_page'] = 4;
+		$config['prefix'] = 'page/';
+        $config["num_links"] = floor($config["total_rows"] / $config["per_page"]);
+		$config['use_page_numbers'] = TRUE;
 
 		$this->pagination->initialize($config);
 
-		$this->data['pagination'] = $this->pagination->create_links();
+		$page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
 
+		$categoryObj->limit = $config['per_page'];
+		$categoryObj->offset = $page;
+		$this->data['categories'] = $categoryObj->get();
+
+		$this->data['pagination'] = $this->pagination->create_links();
 
 		/*----------  Meta Details  ----------*/
 		$this->page = $this->config->item('pages')['categories'];

@@ -9,6 +9,7 @@ class Products extends MY_Controller {
         parent::__construct();
 
         $this->page = $this->config->item('pages')['products'];
+       
 
     }
 
@@ -19,7 +20,7 @@ class Products extends MY_Controller {
 		$categoryObj->where = array('published' => 1);
 		$this->data['categories'] = $categoryObj->get();
 
-		if($product_url){
+		if($product_url && $product_url != 'page'){
 
 			$productObj = new products_model();
 			$productObj->where = array('url' => $product_url);
@@ -63,13 +64,12 @@ class Products extends MY_Controller {
 					$this->data['title'] = $category->name . ' | ' .  $this->page['title'];
 					$this->data['keywords'] = $category->meta_keywords;
 					$this->data['description'] = $category->meta_description;
-					$this->data['current_url'] = current_url() . '?category=' . $category_url;
+					$this->data['current_url'] = base_url('products') . '?category=' . $category_url;
 					$this->data['social_meta_title'] = ($category->social_meta_title) ? $category->social_meta_title : $category->name . ' | ' .  $this->page['title'];
 					$this->data['social_meta_image'] = ($category->social_meta_image) ? $category->social_meta_image : '';
 					/*----------  End Meta Details  ----------*/
 
 					$productObj->where = array('published' => 1, 'category' => $categoryObj->id);
-					
 
 				} else{
 
@@ -91,6 +91,23 @@ class Products extends MY_Controller {
 
 			}
 
+			$row_count = $productObj->count();
+
+			// Customize pagination 
+	        $config = $this->config->item('pagination');
+
+			$config['base_url'] = base_url('products');
+			$config['total_rows'] = $row_count;
+			$config['per_page'] = 8;
+			$config['prefix'] = 'page/';
+
+			$this->pagination->initialize($config);
+
+			$page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+
+			$productObj->limit = $config['per_page'];
+			$productObj->offset = $page;
+
 			$this->data['products'] = $productObj->get();
 			if($this->data['products']){
 				foreach ($this->data['products'] as $product) {
@@ -103,6 +120,8 @@ class Products extends MY_Controller {
 					}
 				}
 			}
+
+			$this->data['pagination'] = $this->pagination->create_links();
 
 			$this->data['content'] = 'pages/products';
 			$this->load->view('layout', $this->data);

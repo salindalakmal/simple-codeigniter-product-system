@@ -13,7 +13,7 @@
 							<img src="<?php echo base_url("assets/categories/". $category->image); ?>" title="<?php echo $category->name; ?>">
 							<h3><?php echo $category->name; ?></h3>
 						</a>
-						<a href="<?php echo base_url('products?category=' . $category->url); ?>" class="btn btn-primary">View Products</a>
+						<a href="<?php echo base_url('products?category=' . $category->url); ?>" class="btn btn-info">View Products</a>
 					</div>  
 				</div>
 				<?php endforeach ?>

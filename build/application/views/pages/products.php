@@ -27,6 +27,9 @@
 			</div>
 			<?php endif ?>
 		</div>
+		<div class="section-footer">
+			<?php echo $pagination; ?>
+		</div>
 	</div>
 	<?php $this->load->view('inc/aside'); ?>
 </div>

@@ -58,7 +58,7 @@ class MY_Model extends CI_Model {
                     $this->db->order_by($this->order[0], $this->order[1]); 
                 }
                 if($this->limit){
-                    $this->db->limit($this->limit); 
+                    $this->db->limit($this->limit, $this->offset); 
                 }
                 $query = $this->db->get_where($this->table, $this->where);
                 if($query->num_rows() > 0){
@@ -138,7 +138,7 @@ class MY_Model extends CI_Model {
      * Count records.
      */
     public function count() {
-        return $this->get();
+        return count($this->get());
     }
 
 

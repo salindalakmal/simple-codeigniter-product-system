@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
 
-$route['categories/(:any)'] = 'categories/index/$1';
+$route['categories/page/(:any)'] = 'categories/index/page/$1';
 $route['products/(:any)'] = 'products/index/$1';
+$route['products/page/(:any)'] = 'products/index/page/$1';
