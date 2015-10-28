@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"date",
+				"date_create"
+			],
+			[
+				"com",
+				"comm-block	Comment - Block style comment"
+			],
+			[
+				"com-s",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"site",
+				"site_name"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"cate",
+				"category_url"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"cat",
+				"categories_model"
+			],
+			[
 				"marg",
 				"margin-top"
 			],
 			[
 				"paddi",
 				"padding"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"bor",
@@ -90,10 +126,6 @@
 			[
 				"h",
 				"html	html"
-			],
-			[
-				"com",
-				"comments"
 			],
 			[
 				"ser",
@@ -210,10 +242,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"a",
-				"a	Tag"
 			],
 			[
 				"fonty",
@@ -376,10 +404,6 @@
 				"twiiter"
 			],
 			[
-				"ar",
-				"article	Tag"
-			],
-			[
 				"min",
 				"min-width"
 			],
@@ -490,81 +514,57 @@
 			[
 				"inli",
 				"inline-block"
-			],
-			[
-				"but",
-				"button"
-			],
-			[
-				"inqui",
-				"inquiries"
-			],
-			[
-				"vaca",
-				"vacancies"
-			],
-			[
-				"ac",
-				"action	Attr"
-			],
-			[
-				"action",
-				"action_id"
-			],
-			[
-				"Ac",
-				"Actions"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "application/views/products.php",
+			"file": "build/application/controllers/Products.php",
 			"settings":
 			{
-				"buffer_size": 2020,
+				"buffer_size": 7488,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/home.php",
+			"file": "build/application/config/app_config.php",
 			"settings":
 			{
-				"buffer_size": 1817,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "theme/config.rb",
-			"settings":
-			{
-				"buffer_size": 1300,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "theme/scss/_common.scss",
-			"settings":
-			{
-				"buffer_size": 6373,
+				"buffer_size": 2625,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "theme/scss/style.scss",
+			"file": "build/application/config/config.php",
 			"settings":
 			{
-				"buffer_size": 602,
+				"buffer_size": 17704,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "application/controllers/Products.php",
+			"file": "build/application/views/pages/products.php",
 			"settings":
 			{
-				"buffer_size": 791,
+				"buffer_size": 3393,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/application/core/MY_Model.php",
+			"settings":
+			{
+				"buffer_size": 3313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/application/helpers/Dropdown_helper.php",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -685,18 +685,62 @@
 	"expanded_folders":
 	[
 		"/Users/lakmal/Sites/product_system",
-		"/Users/lakmal/Sites/product_system/application",
-		"/Users/lakmal/Sites/product_system/application/config",
-		"/Users/lakmal/Sites/product_system/application/controllers",
-		"/Users/lakmal/Sites/product_system/application/core",
-		"/Users/lakmal/Sites/product_system/application/models",
-		"/Users/lakmal/Sites/product_system/application/views",
-		"/Users/lakmal/Sites/product_system/theme",
-		"/Users/lakmal/Sites/product_system/theme/css",
-		"/Users/lakmal/Sites/product_system/theme/scss"
+		"/Users/lakmal/Sites/product_system/build",
+		"/Users/lakmal/Sites/product_system/build/application",
+		"/Users/lakmal/Sites/product_system/build/application/config",
+		"/Users/lakmal/Sites/product_system/build/application/controllers",
+		"/Users/lakmal/Sites/product_system/build/application/core",
+		"/Users/lakmal/Sites/product_system/build/application/helpers",
+		"/Users/lakmal/Sites/product_system/build/application/models",
+		"/Users/lakmal/Sites/product_system/build/application/views",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc",
+		"/Users/lakmal/Sites/product_system/build/application/views/pages",
+		"/Users/lakmal/Sites/product_system/components",
+		"/Users/lakmal/Sites/product_system/components/frontend",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss"
 	],
 	"file_history":
 	[
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/aside.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/pages/category.php",
+		"/Users/lakmal/Sites/product_system/build/application/core/MY_Model.php",
+		"/Users/lakmal/Sites/product_system/build/application/controllers/Categories.php",
+		"/Users/lakmal/Sites/product_system/build/application/config/routes.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/style.scss",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_base.scss",
+		"/Users/lakmal/Sites/product_system/README.md",
+		"/Users/lakmal/Sites/product_system/build/application/config/app_config.php",
+		"/Users/lakmal/Sites/product_system/LICENSE",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/html-head.php",
+		"/Users/lakmal/Sites/product_system/build/application/controllers/Home.php",
+		"/Users/lakmal/Sites/product_system/build/application/controllers/Products.php",
+		"/Users/lakmal/Sites/product_system/build/application/config/autoload.php",
+		"/Users/lakmal/Sites/product_system/build/application/core/MY_Controller.php",
+		"/Users/lakmal/Sites/product_system/build/application/models/Categories_model.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_common.scss",
+		"/Users/lakmal/Sites/product_system/build/application/views/pages/products.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/navigation.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/pages/home.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_categories.scss",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_products.scss",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/header.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/footer.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_template-header.scss",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_template-navigation.scss",
+		"/Users/lakmal/Sites/product_system/build/application/config/config.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_template-footer.scss",
+		"/Users/lakmal/Sites/product_system/build/application/views/pages/product_view.php",
+		"/Users/lakmal/Sites/product_system/components/frontend/scss/_template_footer.scss",
+		"/Users/lakmal/Sites/product_system/.gitignore",
+		"/Users/lakmal/Sites/product_system/build/application/views/inc/html-footer.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/layout.php",
+		"/Users/lakmal/Sites/product_system/build/application/views/includes/footer.php",
+		"/Users/lakmal/Sites/product_system/application/controllers/Products.php",
+		"/Users/lakmal/Sites/product_system/theme/scss/style.scss",
+		"/Users/lakmal/Sites/product_system/theme/config.rb",
+		"/Users/lakmal/Sites/product_system/application/views/home.php",
+		"/Users/lakmal/Sites/product_system/application/views/products.php",
+		"/Users/lakmal/Sites/product_system/theme/scss/_common.scss",
 		"/Users/lakmal/Sites/product_system/theme/scss/_template_header.scss",
 		"/Users/lakmal/Sites/product_system/theme/scss/_base.scss",
 		"/Users/lakmal/Sites/product_system/theme/scss/_variables.scss",
@@ -706,7 +750,6 @@
 		"/Users/lakmal/Sites/product_system/application/core/MY_Controller.php",
 		"/Users/lakmal/Sites/product_system/theme/scss/app.scss",
 		"/Users/lakmal/Sites/product_system/theme/scss/_style.scss",
-		"/Users/lakmal/Sites/product_system/.gitignore",
 		"/Users/lakmal/Sites/product_system/application/config/routes.php",
 		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/controllers/Member.php",
 		"/Users/lakmal/Sites/lanka_holiday_planner/build/application/views/layout/doc_head.php",
@@ -785,46 +828,7 @@
 		"/Users/lakmal/webroot/dj_travels/build/index.php",
 		"/Users/lakmal/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/lakmal/webroot/dj_travels/build/content/views/dj_travels/tour-packages/the-kite-festival-tour.php",
-		"/Users/lakmal/webroot/dj_travels/components/scss/_tour-packages.scss",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/whale-watching-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/tea-trails.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/kite-surfing-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/rail-tours.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/the-kite-festival-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/romantic-getaways.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/kandy-esala-perahera-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/high-octane-adventure.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/eco-adventure.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ayurvedic-and-meditation.php",
-		"/D/webroot/dj_travels/build/content/config/settings.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ramayanaya-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/north-and-east-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-paradise-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-educational-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/ancient-life-and-paradise-tour.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/tour-packages/culture-and-diverting-tour.php",
-		"/D/webroot/dj_travels/components/scripts/common.js",
-		"/D/webroot/dj_travels/components/scripts/forms.js",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/custom-tour.php",
-		"/D/webroot/dj_travels/gulpfile.js",
-		"/D/webroot/dj_travels/components/scss/_common.scss",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/home.php",
-		"/D/webroot/dj_travels/components/scss/_navigation.scss",
-		"/D/webroot/dj_travels/build/themes/dj_travels/js/app.js",
-		"/D/webroot/dj_travels/components/scss/_tour-packages.scss",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/standard-tours.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/layout/navigation.php",
-		"/D/webroot/dj_travels/components/scss/_home.scss",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/special-tours.php",
-		"/D/webroot/dj_travels/components/scss/_pages.scss",
-		"/D/webroot/dj_travels/components/scss/_base.scss",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/card-payments.php",
-		"/D/webroot/dj_travels/components/scripts/custom/card_payments.js",
-		"/D/webroot/dj_travels/build/content/controllers/mail.php",
-		"/D/webroot/dj_travels/build/.htaccess",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/contact-us.php",
-		"/D/webroot/dj_travels/build/content/views/dj_travels/pages/payments.php",
-		"/D/webroot/dj_travels/components/scss/_footer.scss"
+		"/Users/lakmal/webroot/dj_travels/components/scss/_tour-packages.scss"
 	],
 	"find":
 	{
@@ -842,6 +846,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fgdf",
 			"div",
 			"65rem",
 			"7rem",
@@ -968,8 +973,7 @@
 			"no",
 			"is_u",
 			"is_",
-			"CI_Form_validation",
-			"is_unique"
+			"CI_Form_validation"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1008,24 +1012,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/products.php",
+					"file": "build/application/controllers/Products.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2020,
+						"buffer_size": 7488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								4602,
+								4602
 							]
 						],
 						"settings":
@@ -1033,6 +1037,128 @@
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 10.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/application/config/app_config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								72
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "build/application/config/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14108,
+								14108
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5748.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build/application/views/pages/products.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1790,
+								1790
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "build/application/core/MY_Model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1042,146 +1168,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "application/views/home.php",
+					"buffer": 5,
+					"file": "build/application/helpers/Dropdown_helper.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1817,
+						"buffer_size": 522,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								171
+								73,
+								73
 							]
 						],
 						"settings":
 						{
+							"open_with_edit": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "theme/config.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								134,
-								134
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "theme/scss/_common.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5619,
-								5619
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4185.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "theme/scss/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								597,
-								597
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "application/controllers/Products.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								313
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1272,7 +1281,7 @@
 		[
 			[
 				"",
-				"~/Sites/higasinihon-estate.com/higasinihon_estate.sublime-project"
+				"~/Sites/fireaxe/fireaxe.sublime-project"
 			]
 		],
 		"width": 380.0

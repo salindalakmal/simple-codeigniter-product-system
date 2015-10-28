@@ -1,0 +1,30 @@
+/**
+ *
+ * Footer
+ *
+ */
+
+
+#footer 		{
+	background: #f0f0f0;
+	margin-top:1.5rem; 
+	padding:1rem 0 0.5rem;
+	border-top:1px solid #ececec;
+	h3{
+		font-size: $fz02;
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+	}
+	p, a{
+	    font-size: $fz06;
+	    font-weight: 400;
+	    color: #999;
+	}
+	.footer{
+		margin-bottom: 1rem; 
+		li{
+			padding-left:1rem;
+			margin-bottom: 0.5rem;
+		}
+	}
+}

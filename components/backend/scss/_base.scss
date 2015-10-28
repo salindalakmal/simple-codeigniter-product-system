@@ -1,6 +1,6 @@
 /**
  *
- * HTML element reset and framwork overides
+ * App html element reset and framwork overides
  *
  */
 
@@ -62,12 +62,12 @@ p {
 }
 a {
     outline:none; 
-    color:$link-clr01; 
+    //color:$link-clr01; 
     text-decoration:none;
     background: transparent; 
     line-height:1;
     &:hover{
-        color:$link-clr01; 
+        //color:$link-clr01; 
     }
     img{
         border:none;
@@ -153,15 +153,6 @@ body {
 .underline {
     text-decoration:underline
 }
-.text-right {
-    text-align:right;
-}
-.text-left {
-    text-align:left;
-}
-.text-center {
-    text-align:center;
-}
 .hide, .hidden {
     display: none;
 }
@@ -177,95 +168,32 @@ body {
 
 /*----------  Framework Overides  ----------*/
 
-
-// Framework row
-.row{
-    max-width:50rem;
-}
-
 // buttons
 button, .button {
     background:$btn-clr01; 
     font-family:$fontM; 
-    font-size:$fz06;
+    font-size:$fzM;
     padding:0.5rem 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     font-weight: 200;
     color: #fff;
-    line-height: $fz03;
-    text-transform: uppercase;
-    @include border-radius(4px);
+    @include border-radius(2px);
     &:hover, &:focus{
         background:darken($btn-clr01, 10%);
     }
-    &.add-button{
-        background: #E7E7E7;
-        color: #666666;
+    &.theme-button{
+        background:$btn-clr01;
         &:hover, &:focus{
-            
-        }
-    }
-    &.edit-button{ 
-        color: #666666;
-        background-image: linear-gradient(-180deg, #9DF0FF 0%, #7DE4FF 100%);
-    }
-    &.delete-button, &.delete-confirm-button{
-        background: #FB7F7F;
-        i{
-            width:$fz05;
-            height: $fz05;
-            line-height: $fz05;
-            color: #FB7F7F;
-            background:#fff;
-            text-align: center;
-            @include border-radius(50%);
-            font-size: $fzM !important; 
-        }
-    }
-    &.publish-button , &.cancel-button{
-        background: #F5F5F5;
-        border: 1px solid darken(#F5F5F5, 10%);
-        color: #666666;
-        i{
-            color: #9B9B9B;
-        }
-        &.active{
-            background: #F5F5F5;
-            border: 1px solid #7ED321;
-            i{
-                color: #7ED321;
-            }
-        }
-    }
-    i{
-        font-size:$fz03 !important;
-        margin-right: 0.4rem;
-        line-height: $fz02;
+            background:darken($btn-clr01, 10%);
+        } 
     }
 }
 
 // Panel 
 .panel{
-    border:1px solid #f1f1f1;
-    border-left:0.2rem solid $clr03;
-    background:#fff;
-    font-style: italic;
-    margin:0.5rem 0;
+
 }
 
-// grid
-.columns{
-    &.no-padding{
-        padding-left: 0;
-        padding-right: 0;
-    } 
-    &.no-padding-left{
-        padding-left: 0;
-    }
-    &.no-padding-right{ 
-        padding-right: 0;
-    }
-}
 
 // tables
 table{
@@ -273,56 +201,21 @@ table{
     border-collapse: separate;
     border-spacing: 0;
     margin-bottom: 0;
-    border-right: 1px solid #ececec;
     thead{
         tr{
             th{
-                border-top: 1px solid #ececec;
-                font-size: $fzM;
+
             }
         }
     }
     tr{
-        border-top: 1px solid #ececec;
         &:nth-of-type(even) {
             background:none;
         }
-        &:first-child{
-            td{
-                border-top: 1px solid #ececec;
-            }
-        }
         td{
-            border-left: 1px solid #ececec;
-            border-bottom: 1px solid #ececec;
-            font-size: $fz06;
+
         }
     }
-}
-
-
-// Reveal Model Styles
-.reveal-modal {
-    position:fixed;
-    z-index:10000 !important;
-    @include border-radius(2px);
-    border:0;
-    top:15% !important;
-    .close-reveal-modal{
-        font-size:1.3rem;
-        top:1rem;
-        right: 1rem;
-        background:darken(#f0f0f0, 5%);
-        @include border-radius(100%);
-        width:1.4rem;
-        height: 1.4rem;
-        line-height: 1.4rem;
-        text-align: center;
-    }
-}
-.reveal-modal-bg {
-    position:fixed;
-    z-index:900 !important;
 }
 
 
@@ -381,17 +274,6 @@ p {
 @media only screen 
     and (max-width: 640px) {  
 
-// Reveal Model Styles
-.reveal-modal {
-    //width: 96% !important;
-    top: 0 !important;
-    overflow: auto;
-    .close-reveal-modal{
-        right: 1rem;
-    }
-}
-
-
 } /////////////// End ///////////////
 
 
@@ -404,11 +286,6 @@ p {
 /* Portrait and Landscape */
 @media only screen 
     and (min-width: 641px) {  
-
-.tmp-row {
-    @include grid-row();
-    @include grid-column(12);
-} 
 
 } /////////////// End ///////////////
 
@@ -434,7 +311,7 @@ p {
 @media only screen 
     and (min-width: 907px) {
 
-} /////////////// End ///////////////
+} /////////////// End /////////////// 
 
 
 /*=============================================*/

@@ -103,7 +103,7 @@ gulp.task('backend_modernizr', function() {
 gulp.task('frontend_js_custom', function() {
     gulp.src('components/frontend/scripts/custom/*.js')
     .pipe(gulpif(env === 'production', uglify()))
-    .pipe(gulp.dest(frontend_theme_dir + '/js/custom'))
+    .pipe(gulp.dest(frontend_theme_dir + '/js'))
     .pipe(reload({stream:true}));
 });
 
@@ -126,7 +126,7 @@ gulp.task('frontend_js', function() {
 gulp.task('backend_js_custom', function() {
     gulp.src('components/backend/scripts/custom/*.js')
     .pipe(gulpif(env === 'production', uglify()))
-    .pipe(gulp.dest(backend_theme_dir + '/js/custom'))
+    .pipe(gulp.dest(backend_theme_dir + '/js'))
     .pipe(reload({stream:true}));
 });
 
@@ -179,9 +179,8 @@ gulp.task('watch', function() {
     gulp.watch(backend_js_sources, ['backend_js']);
     gulp.watch('components/backend/scripts/vendor/*.js', ['backend_js_vendor']);
     gulp.watch('components/backend/scripts/custom/*.js', ['backend_js_custom']);
-    gulp.watch('components/backend/scss/*.scss', ['backend_theme_compass']);
+    gulp.watch('components/backend/scss/*.scss', ['backend_compass']);
     gulp.watch(backend_theme_dir + '/images/**/*.*', ['backend_theme_images']);
 });
 
 gulp.task('default', ['frontend_theme_files_move', 'backend_theme_files_move', 'frontend_modernizr', 'backend_modernizr', 'frontend_js_custom', 'frontend_js_vendor', 'frontend_js', 'backend_js_custom', 'backend_js_vendor', 'backend_js', 'frontend_compass', 'backend_compass', 'backend_theme_images', 'backend_theme_images', 'browser_sync', 'clear_cache', 'watch']);
-

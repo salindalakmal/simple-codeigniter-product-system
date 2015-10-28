@@ -10181,14 +10181,6 @@ button.theme-button:hover, button.theme-button:focus, .button.theme-button:hover
   background: #5c0310;
 }
 
-.panel {
-  border: 1px solid #f1f1f1;
-  border-left: 0.2rem solid #C49A58;
-  background: #fff;
-  font-style: italic;
-  margin: 0.5rem 0;
-}
-
 table {
   border: 0;
   border-collapse: separate;
@@ -10361,116 +10353,6 @@ table tr:nth-of-type(even) {
     padding: 0 1rem;
   }
 }
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
-/**
- *
- * Form and Form Elements
- *
- */
-form fieldset {
-  padding: 1.5rem 0.5rem 0.5rem;
-  width: 100%;
-  border: 3px solid #ececec;
-}
-form label {
-  font-size: 0.7rem;
-  margin-bottom: 0.25rem;
-  font-weight: 400;
-  color: #4c4c4c;
-}
-form input[type="text"],
-form input[type="password"],
-form input[type="date"],
-form input[type="email"],
-form input[type="number"],
-form input[type="tel"],
-form input[type="time"],
-form input[type="url"] {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-  color: #4c4c4c;
-  border: 1px solid #e0e0e0;
-  height: 2.4rem;
-  margin-bottom: 0.8rem;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  box-shadow: none;
-}
-form select {
-  border: 1px solid #ececec;
-  height: 2.4rem;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-  color: #4c4c4c;
-}
-form textarea {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-  color: #4c4c4c;
-  height: 8rem;
-  border: 1px solid #e0e0e0;
-  padding: 0.5rem 0.5rem;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  box-shadow: none;
-}
-form input[type="submit"], form button, form .button {
-  background: #8D0519;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.7rem;
-  padding: 0.7rem 1.5rem;
-  margin-bottom: 0;
-  font-weight: 200;
-  color: #fff;
-  border: 0;
-  margin-top: 0.4rem;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-}
-form input[type="submit"]:hover, form input[type="submit"]:focus, form button:hover, form button:focus, form .button:hover, form .button:focus {
-  background: #740415;
-}
-
-/*----------  Login Form  ----------*/
-.forgot-password {
-  padding: 0 0 1.5rem;
-  color: #8D0519;
-}
-.forgot-password a:hover {
-  text-decoration: underline;
-}
-
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
-/*=============================================*/
-/*=============================================*/
-/* Portrait and Landscape */
 /*=============================================*/
 /*=============================================*/
 /* Portrait and Landscape */

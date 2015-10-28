@@ -71,51 +71,20 @@ form{
 	        background:darken($btn-clr01, 5%);
 	    }
 	}
-	.remember{
-		label{
-			display: inline-block;
-			margin-right: 0.4rem;
-		}
-		input[type="checkbox"]{
-			display: inline-block;
-		}
-	}
 }
 
 
 
 /*----------  Login Form  ----------*/
 .forgot-password{
-	margin:0.5rem 0;
-	p{
-		line-height: 1;
-		a{
-			color: $fcM;
+	padding:0 0 1.5rem;
+	color:$theme-clr01;
+	a{
+		&:hover{
 			text-decoration: underline;
-			&:hover{
-				text-decoration: none;
-			}
 		}
 	}
 }
-
-
-/*----------  add-edit-form  ----------*/
-.upload-image {
-	margin-bottom:1.5rem;
-	.inner{
-		width:250px; 
-		float:left;
-		margin-right:1rem;
-		border:5px solid #fff;
-		@include border-radius(2px);
-		@include box-shadow(0 0 4px rgba(0, 0, 0 , 0.2));
-	}
-	input[type="file"]{
-		width: auto;
-	}
-}
-
 
 /*=============================================*/
 // Max Width 480px 

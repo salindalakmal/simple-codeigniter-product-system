@@ -6,24 +6,23 @@
 
 
 /* Font Famlies */
-$fontM		: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-$font01 	: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-$font02     : 'Arial', Helvetica Neue, Helvetica, sans-serif;
-$font03     : 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-$icon-font  : 'FontAwesome'; //  FontAwesome, foundation-icons
+$fontM		: 'Open Sans', sans-serif;
+$font01 	: 'PT Sans', sans-serif;
+$font02     : Arial, Helvetica Neue, Helvetica, sans-serif;
+$icon-font  : 'foundation-icons'; //  FontAwesome, foundation-icons
 
 /* User Interface Colors */
 $fcM  		: #4c4c4c; // main font color
 
-$link-clr01 : #BD3838; // link color
+$link-clr01 : #8D0519; // link color
 $link-clr02 : #540505; // link color
 
-$clr01 : #FF9A00; // template colors
-$clr02 : #006600;
-$clr03 : #D8D8D8;
+$theme-clr01 : #8D0519; // template colors
+$theme-clr02 : #540505;
+$theme-clr03 : #C49A58;
 
-$btn-clr01  : #FF9A00; // template button colors 
-$btn-clr02  : #006600;
+$btn-clr01  : #8D0519; // template button colors 
+$btn-clr02  : #C49A58;
 
 
 /*  Font Sizes */	
