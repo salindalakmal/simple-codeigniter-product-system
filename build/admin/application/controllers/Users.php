@@ -526,7 +526,7 @@ class Users extends CI_Controller {
 
 		if (!$this->ion_auth->logged_in() || (!$this->ion_auth->is_admin() && !($this->ion_auth->user()->row()->id == $id)))
 		{
-			redirect('auth', 'refresh');
+			redirect('users', 'refresh');
 		}
 
 		$user = $this->ion_auth->user($id)->row();
@@ -667,7 +667,7 @@ class Users extends CI_Controller {
 			'type' => 'password'
 		);
 
-		$this->_render_page('auth/edit_user', $this->data);
+		$this->_render_page('user/edit_user', $this->data);
 	}
 
 	// create a new group

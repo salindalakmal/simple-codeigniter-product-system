@@ -1,12 +1,5 @@
 $(document).ready(function(){
 
-    $(this).foundation();
+    $('#navigation #menu').metisMenu();
 
 });
-
-
-
-
-
-
-

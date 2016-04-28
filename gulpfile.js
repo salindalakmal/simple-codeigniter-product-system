@@ -27,8 +27,9 @@ var backend_js_sources = [
     'bower_components/fastclick/lib/fastclick.js',
     'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
     'bower_components/fancybox/source/jquery.fancybox.js',
-    'components/app/scripts/common.js',
-    'components/app/scripts/forms.js',
+    'bower_components/metisMenu/dist/metisMenu.js',
+    'components/backend/scripts/common.js',
+    'components/backend/scripts/forms.js',
 ];
 
 var env = process.env.NODE_ENV || 'development';
@@ -60,6 +61,20 @@ gulp.task('backend_theme_files_move', function() {
     .pipe(gulp.dest(backend_theme_dir + '/js/vendor'));
     gulp.src('bower_components/fancybox/source/**.{gif,png,jpg}')
     .pipe(gulp.dest(backend_theme_dir + '/images'));
+    gulp.src('bower_components/metisMenu/dist/metisMenu.min.css')
+    .pipe(gulp.dest(backend_theme_dir + '/css'));
+    
+    // gulp.src('bower_components/croppic/assets/fonts/**.*')
+    // .pipe(gulp.dest(backend_theme_dir + '/fonts'));
+    // gulp.src('bower_components/croppic/assets/img/**.{gif,png,jpg}')
+    // .pipe(gulp.dest(backend_theme_dir + '/images'));
+    // gulp.src('bower_components/croppic/assets/css/croppic.css')
+    // .pipe(gulp.dest(backend_theme_dir + '/css'));
+    // gulp.src('bower_components/croppic/croppic.min.js')
+    // .pipe(gulp.dest(backend_theme_dir + '/js/vendor'));
+
+    gulp.src('bower_components/cropit/dist/jquery.cropit.js')
+    .pipe(gulp.dest(backend_theme_dir + '/js/vendor'));
 });
 
 gulp.task('frontend_compass', function() {

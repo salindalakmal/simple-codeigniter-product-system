@@ -100,7 +100,7 @@ class MY_Model extends CI_Model {
      */
     function insert(){
 
-        $this->db->insert($this->CI->table, $this); 
+        $this->db->insert($this->table, $this->data); 
         $this->id = $this->db->insert_id();
         return FALSE;
         
@@ -112,7 +112,7 @@ class MY_Model extends CI_Model {
     function update(){
 
         $this->db->where('id', $this->id);
-        $this->db->update($this->CI->table, $this); 
+        $this->db->update($this->table, $this->data); 
         return FALSE;
 
     }
@@ -122,10 +122,11 @@ class MY_Model extends CI_Model {
      */
     public function save() {
 
-        if (isset($this->id)) {
+        if (isset($this->id) && $this->id) {
             $this->update();
+            echo 'dada';
         } else {
-            $this->insert();
+           echo  $this->insert();
         }
 
     }

@@ -13,6 +13,7 @@
     <meta name="keywords" content="" />
 	<meta name="description" content="" />
     <link rel="shortcut icon" href="<?php echo base_url('theme/images/favicon.ico');?>" type="image/x-icon" />
+    <link rel="stylesheet" href="<?php echo base_url('theme/css/metisMenu.min.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('theme/css/style.css');?>" />
     <script type="text/javascript" src="<?php echo base_url('theme/js/vendor/modernizr.js');?>"></script>
     <script type="text/javascript" src="<?php echo base_url('theme/js/vendor/jquery.min.js');?>"></script>

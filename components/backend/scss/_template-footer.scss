@@ -7,7 +7,6 @@
 
 #footer 		{
 	background: #f0f0f0;
-	margin-top:1.5rem; 
 	padding:1rem 0 0.5rem;
 	border-top:1px solid #ececec;
 	h3{
@@ -21,10 +20,81 @@
 	    color: #999;
 	}
 	.footer{
-		margin-bottom: 1rem; 
+		margin-bottom: 1rem;
 		li{
 			padding-left:1rem;
 			margin-bottom: 0.5rem;
 		}
 	}
 }
+
+
+/*=============================================*/
+// Max Width 480px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (max-width: 480px) {
+
+} /////////////// End ///////////////
+
+
+
+
+/*=============================================*/
+// Max Width 640px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (max-width: 640px) {
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 641px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (min-width: 641px) {
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 768px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (min-width: 768px) {
+
+} /////////////// End ///////////////
+
+
+
+/*=============================================*/
+// Min Width 907px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (min-width: 907px) {
+
+} /////////////// End ///////////////
+
+
+/*=============================================*/
+// Min Width 1025px
+/*=============================================*/
+
+/* Portrait and Landscape */
+@media only screen
+    and (min-width: 1025px) {
+
+} /////////////// End ///////////////

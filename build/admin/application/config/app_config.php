@@ -1,4 +1,4 @@
-<?php 
+<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
@@ -10,11 +10,35 @@ date_default_timezone_set('Asia/Colombo');
 
 /**
  *
+ * Site Details
+ *
+ */
+$config['site_details']['site_name'] = 'Product System';
+$config['site_details']['fb_auther'] = '';
+$config['site_details']['fb_publisher'] = '';
+$config['site_details']['email'] = 'salindalakmal@gmail.com';
+
+
+
+/**
+ *
+ * Assets URL and Path variable
+ *
+ */
+$config['assets_url'] = 'http://localhost/product_system/build/assets/';
+$config['assets_path'] = dirname (FCPATH) . '/assets/';
+
+
+
+
+/**
+ *
  * MySql Tables from database
  *
  */
 $config['tables']['categories']	= 'categories';
 $config['tables']['products']	= 'products';
+
 
 
 /**
@@ -45,15 +69,7 @@ $config['pagination']['use_page_numbers'] = TRUE;
 $config['pagination']['reuse_query_string'] = TRUE;
 
 
-/**
- *
- * Site Details
- *
- */ 
-$config['site_details']['site_name'] = 'Product System';
-$config['site_details']['fb_auther'] = '';
-$config['site_details']['fb_publisher'] = '';
-$config['site_details']['email'] = 'salindalakmal@gmail.com';
+
 
 
 /**
@@ -88,4 +104,3 @@ $config['pages'] = array(
     ),
 
 );
-

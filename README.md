@@ -15,3 +15,8 @@ https://nodejs.org/en/
 fancybox
 http://fancyapps.com/fancybox/
 
+Ion Auth
+https://github.com/benedmunds/CodeIgniter-Ion-Auth
+
+metisMenu
+https://github.com/onokumus/metisMenu
